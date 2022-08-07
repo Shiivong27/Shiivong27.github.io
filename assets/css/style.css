@@ -847,7 +847,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #CF9FFF; /*#68c3a3*/
+    background: #CF9FFF; /*#68c3a3 this was the original color code*/
     color: #fff;
 }
 
