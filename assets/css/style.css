@@ -1167,7 +1167,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #68c3a3;
+    border: 1px solid #f6fe09; /*#68c3a3 this was the original color*/
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1177,14 +1177,14 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: #f6fe09; /*#68c3a3 this was the original color*/
 }
 
 .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #68c3a3;
+    background-color: #f6fe09; /*#68c3a3 this was the original color*/
     color: #fff;
     height: 45px;
     width: 100%;
