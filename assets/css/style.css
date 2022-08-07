@@ -21,7 +21,7 @@ a {
 }
 
 .timeline-body a{
-    color: #68c3a3;
+    color: #68c3a3; 
 }
 
 .timeline-body a:hover{
@@ -814,7 +814,7 @@ Resume Timeline
 .timeline>li .posted-date {
     position: absolute;
     text-align: center;
-    background-color: #fff;
+    background-color: #1a1e23;
 }
 
 .timeline>li .timeline-panel {
@@ -847,7 +847,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #CF9FFF; /*#68c3a3 this was the original color*/
+    background: #68c3a3; 
     color: #fff;
 }
 
