@@ -847,7 +847,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #CF9FFF; /*#68c3a3 this was the original color code*/
+    background: #CF9FFF; /*#68c3a3 this was the original color*/
     color: #fff;
 }
 
@@ -1152,13 +1152,13 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #68c3a3;
+    color: #f6fe09; /*#68c3a3 this was the original color*/
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
 }
 .links a:hover i {
-   color:  #fff;
+   color:  #f6fe09; /*#fff this was the original color*/
 }
 .links a i::after{
     position: absolute;
