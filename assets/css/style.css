@@ -21,7 +21,7 @@ a {
 }
 
 .timeline-body a{
-    color: #1E17E3;
+    color: #68c3a3;
 }
 
 .timeline-body a:hover{
@@ -1150,7 +1150,7 @@ Resume Timeline
     transform: translate(0,-50px);
 }
 
-.links a i{
+.links a i{ /* the next three sections control the color of the project name info on hover under the projects section on the website */
     position: relative;
     color: #68c3a3; 
     font-size: 16px;
