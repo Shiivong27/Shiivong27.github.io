@@ -563,7 +563,7 @@ xloading-bar
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #2ecc71;
+  background: #bf40bf; /*#2ecc71*/
   z-index: 2;
   -webkit-transition: width 0.3s -0.1s;
   -moz-transition: width 0.3s -0.1s;
