@@ -1177,7 +1177,7 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: #702963;
 }
 
 .portfolio-info {
