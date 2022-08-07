@@ -814,7 +814,7 @@ Resume Timeline
 .timeline>li .posted-date {
     position: absolute;
     text-align: center;
-    background-color: #1a1e23;
+    background-color: #1a1e23; /* #fff was the original color code*/
 }
 
 .timeline>li .timeline-panel {
