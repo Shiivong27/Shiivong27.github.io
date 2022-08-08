@@ -337,11 +337,11 @@ ul.list-check li::before {
 .intro-sub {
 	color: #fff;
 	font-size: 65px;
-	line-height: 12px;
+	line-height: 32px;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 /* 
