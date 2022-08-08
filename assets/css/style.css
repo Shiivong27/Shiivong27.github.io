@@ -288,7 +288,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/code-1.jpeg) no-repeat center center;
+	background: url(../images/code-3.png) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -1219,7 +1219,7 @@ Resume Timeline
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out; 
   -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -o-transition: all 0.3s ease-out;     
   transition: all 0.3s ease-out;
 }
 
@@ -1405,7 +1405,7 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../../assets/images/code-2.jpeg) no-repeat top center #68C3A3;
+    background: url(../../assets/images/code-4.jpeg) no-repeat top center #68C3A3;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
