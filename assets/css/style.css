@@ -757,7 +757,7 @@ Resume Timeline
 
 .timeline>li .posted-date .month {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 40px; /*it was 20 originally*/
     font-weight: 700;
     display: block;
     color: #2c3e50;
