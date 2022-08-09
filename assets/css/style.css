@@ -704,13 +704,14 @@ Resume Timeline
     width: 2px;
     margin-left: -1.5px;
     background-color: #e1e1e1;
+    background: url(../images/code-1.jpeg) /*this line was added*/
 }
 
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
     min-height: 50px;
-    background: url(../images/code-1.jpeg) /*this line has been added*/
+    /*background: url(../images/code-1.jpeg) this line adds a background across all the timeline tiles*/
 }
 
 .timeline>li:before,
