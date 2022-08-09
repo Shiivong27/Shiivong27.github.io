@@ -387,7 +387,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #68c3a3;
+    background: #fff;
     border: 1px solid transparent;
     z-index: 0;
 }
