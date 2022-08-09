@@ -710,7 +710,7 @@ Resume Timeline
     position: relative;
     margin-bottom: 50px;
     min-height: 50px;
-    background: url(../images/code-2.jpeg) /*this line has been added*/
+    background: url(../images/code-1.jpeg) /*this line has been added*/
 }
 
 .timeline>li:before,
