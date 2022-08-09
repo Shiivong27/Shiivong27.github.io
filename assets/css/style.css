@@ -1158,7 +1158,7 @@ Resume Timeline
     z-index: 100;
 }
 .links a:hover i {
-   color:  #fff; 
+   color:  #68c3a3; /*fff was the original color code*/
 }
 .links a i::after{
     position: absolute;
