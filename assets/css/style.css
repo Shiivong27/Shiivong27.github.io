@@ -704,6 +704,7 @@ Resume Timeline
     width: 2px;
     margin-left: -1.5px;
     background-color: #e1e1e1;
+    background: url(../images/code-3.png) no-repeat center center; /*this like has beed added*/
 }
 
 .timeline>li {
@@ -844,6 +845,7 @@ Resume Timeline
     height:10px;
     left: 0;
     z-index: -1;
+    background: url(../images/code-3.png) no-repeat center center; /*this like has beed added*/
 }
 
 .timeline>li .timeline-content:hover {
