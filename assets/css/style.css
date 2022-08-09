@@ -352,7 +352,7 @@ SOCIAL ICON
 }
 .social-icons a i{
     position: relative;
-    color: #fff;
+    color: #68c3a3;
     font-size: 18px;
     margin: 0 7px;
     line-height: 40px;
@@ -373,7 +373,7 @@ SOCIAL ICON
     top: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid #68c3a3;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
