@@ -21,7 +21,7 @@ a {
 }
 
 .timeline-body a{
-    color: #68c3a3; 
+    color: #FFFFFF; 
 }
 
 .timeline-body a:hover{
@@ -37,7 +37,7 @@ a > * {
 a:focus,
 a:hover {
     outline: none;
-    color: #FFFFFF;
+    color: #333333;
     text-decoration: none;
 }
 
