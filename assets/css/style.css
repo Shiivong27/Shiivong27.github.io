@@ -288,7 +288,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/code-3.png) no-repeat center center;
+	background: url(../images/hero-optimized.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -1085,7 +1085,7 @@ Resume Timeline
 }
 
 
-#filter li a {
+#filter li button {
     color: #68c3a3;
     display: block;
     text-transform: uppercase;
@@ -1093,16 +1093,16 @@ Resume Timeline
     border-radius: 4px;
     transition: inherit;
 }
-#filter li a.active,
-#filter li a:hover {
+#filter li button.active,
+#filter li button:hover {
     position: relative;
     background: #68c3a3;
     color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
 
-#filter li a.active::after,
-#filter li a:hover::after{
+#filter li button.active::after,
+#filter li button:hover::after{
     position: absolute;
     content: "";
     width: 0;
@@ -1863,3 +1863,47 @@ Icon for all respective meta
     margin: 0 auto;
     padding: 0 0 50px 0;
 }
+/* Readability and accessible interaction improvements. */
+#recommendations .timeline-body p + p {
+    margin-top: 1.5em;
+}
+body { font-size: 16px; line-height: 1.75; }
+a, .timeline-body a { color: #23765b; }
+p a, .timeline-body a, .contact-number a, .biography a { text-decoration: underline; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 3px solid #215d99; outline-offset: 4px; }
+section { scroll-margin-top: 80px; }
+.skip-link { position: fixed; left: 12px; top: -100px; z-index: 10000; padding: 10px 16px; background: white; }
+.skip-link:focus { top: 12px; }
+.intro-sub { display: block; }
+#home { min-height: 560px; }
+img { max-width: 100%; height: auto; }
+#filter button { border: 0; font: inherit; cursor: pointer; background: transparent; color: #23765b; min-height: 44px; }
+#filter li button.active, #filter li button:hover { background: #23765b; }
+.portfolio img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; }
+.portfolio-info { position: static; height: auto; min-height: 88px; padding: 12px; background: #23765b; display: flex; align-items: center; justify-content: center; }
+.portfolio-info h3 { line-height: 1.5; font-size: 14px; }
+.portfolio .tt-overlay { display: none; }
+.portfolio .links { opacity: 1; transform: none; top: 12px; right: 12px; left: auto; margin: 0; width: 44px; height: 44px; }
+.links a { display: flex; width: 44px; height: 44px; align-items: center; justify-content: center; border-radius: 4px; background: #fff; }
+.links a i { margin: 0; color: #23765b; }
+.links a i::after { display: none; }
+.wow { visibility: visible !important; animation: none !important; }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+    #home, .hire-section { background-attachment: scroll; }
+    .tt-headline.type .tt-words-wrapper { width: auto !important; }
+    .tt-headline.type .tt-words-wrapper::after { display: none; }
+    .tt-headline.type b.is-visible { position: relative; opacity: 1; visibility: visible; }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .navbar-custom .navbar-nav > li > a { padding-left: 7px; padding-right: 7px; font-size: 12px; }
+}
+@media (max-width: 479px) {
+    .intro-sub { font-size: 36px; line-height: 1.2; }
+    .tt-headline .tt-words-wrapper { max-width: 100%; font-size: 27px; line-height: 1.4; }
+}
+@media (min-width: 1200px) {
+    .navbar-custom .navbar-nav > li > a { padding-left: 9px; padding-right: 9px; font-size: 12px; }
+}
+#filter li button { color: #23765b; }
+#filter li button.active, #filter li button:hover { color: #fff; }

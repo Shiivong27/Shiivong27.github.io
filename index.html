@@ -36,21 +36,17 @@
     </head>
 
     <body style="background-color: #FAFAFA; font-family: 'Roboto', sans-serif; font-weight: 400">
-        <!-- Preloader -->
-        <div id="tt-preloader">
-            <div id="pre-status">
-                <div class="preload-placeholder"></div>
-            </div>
-        </div>
-
+        <a class="skip-link" href="#main-content">Skip to content</a>
+        <main id="main-content">
         <!-- Home Section -->
         <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
             <div class="intro">
 
                 <h1 class="tt-headline letters type"> <!--letters type was the original class code-->
                     <!-- you can use "rotate-1", "letters type", "letters rotate-2", "letters rotate-3", "letters scale", "loading-bar", "slide", "clip is-full-width", "push" -->
-                    <div class="intro-sub">Shiivong Birla</div>
-                    <span class="tt-words-wrapper">
+                    <span class="intro-sub">Shiivong Birla</span>
+                    <span class="sr-only">Data Engineer / Data Governance Engineer</span>
+                    <span class="tt-words-wrapper" aria-hidden="true">
                         <b class="is-visible">Data Engineer</b>
                         <b>Data Governance Engineer</b>
                         
@@ -68,9 +64,9 @@
 
                 <div class="social-icons">
                     <ul class="list-inline">
-                        <li><a target="_blank" href="https://www.linkedin.com/in/shiivong-birla/"><i
+                        <li><a target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" href="https://www.linkedin.com/in/shiivong-birla/"><i
                                                                                                             class="fa fa-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://github.com/Shiivong27"><i
+                        <li><a target="_blank" rel="noopener noreferrer" aria-label="GitHub" href="https://github.com/Shiivong27"><i
                                                                                                             class="fa fa-github"></i></a></li>
                     </ul>
                 </div> <!-- /.social-icons -->
@@ -89,7 +85,7 @@
             <nav class="navbar navbar-custom" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse" aria-controls="custom-collapse" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -105,6 +101,7 @@
                             <li><a href="#workEx">Experience</a></li>
                              <li><a href="#projects">Projects</a></li> 
                             <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Get in touch</a></li>
                             <li><a href="#recommendations">Recommendations</a></li>
                             <li><a href="#pubAndCert">Publications & Certifications</a></li>
                             <!-- <li class="testimonial-check"><a href="#testimonials">Testimonials</a></li> -->
@@ -125,12 +122,12 @@
                     <div class="col-md-4 col-md-push-8">
                         <div class="biography">
                             <div class="myphoto">
-                                <img src="assets/images/KPMGoffice.jpg" alt="">
+                                <img src="assets/images/portrait-optimized.jpg" alt="Shiivong Birla" width="800" height="600" loading="lazy" decoding="async">
                             </div>
                             <ul>
                                 <li><strong>Name : </strong>Shiivong Birla</li>
                                 <li><strong>Date of Birth : </strong>27 February 1995</li>  
-                                <li><strong>Email : </strong>shiivongbirla27@gmail.com</li>
+                                <li><strong>Email : </strong><a href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com</a></li>
                             </ul>
                         </div>
                     </div> <!-- col-md-4 -->
@@ -174,7 +171,7 @@
     
         <section id="education" class="resume-section section">
             <div class="container">
-                <h4 class="section-title wow fadeInUp">Education</h4>
+                <h2 class="section-title wow fadeInUp">Education</h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="resume">
@@ -224,7 +221,7 @@
 
         <section id="workEx" class="resume-section section">
             <div class="container">
-                <h4 class="section-title wow fadeInUp">Work Experience</h4>
+                <h2 class="section-title wow fadeInUp">Work Experience</h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="resume">
@@ -412,17 +409,17 @@
 
 <section id="projects" class="resume-section section" style="display: inline;">
     <div class="container">
-        <h4 class="section-title wow fadeInUp">Projects</h4>
+        <h2 class="section-title wow fadeInUp">Projects</h2>
         <div class="row">
             <div class="col-md-12">
                 <ul class="list-inline" id="filter">
-                    <li><a class="active" data-group="all">All</a></li>
-                    <li><a data-group="ml">Machine Learning</a></li>
-                    <li><a data-group="tseries">Time-Series Forecasting</a></li>
-                    <li><a data-group="nlp">Natural Language Processing</a></li>
-                    <li><a data-group="bd">Big Data</a></li>
-                    <li><a data-group="da">Data Analysis</a></li>
-                    <li><a data-group="cv">Computer Vision</a></li>
+                    <li><button type="button" class="active" data-group="all" aria-pressed="true">All</button></li>
+                    <li><button type="button" data-group="ml" aria-pressed="false">Machine Learning</button></li>
+                    <li><button type="button" data-group="tseries" aria-pressed="false">Time-Series Forecasting</button></li>
+                    <li><button type="button" data-group="nlp" aria-pressed="false">Natural Language Processing</button></li>
+                    <li><button type="button" data-group="bd" aria-pressed="false">Big Data</button></li>
+                    <li><button type="button" data-group="da" aria-pressed="false">Data Analysis</button></li>
+                    <li><button type="button" data-group="cv" aria-pressed="false">Computer Vision</button></li>
                 </ul> 
                 <div class="project">
                     <div class="row">
@@ -432,10 +429,10 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/time-series-forecasting.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/time-series-forecasting.jpeg"><i
                                                                                                              class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/time-series-forecasting.jpeg" alt="image">
+                                        <img src="assets/images/time-series-forecasting.jpeg" alt="" width="1400" height="787" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Forecasting-Influenza-Flu-cases-in-Australia-with-XGBoost-and-SARIMAX-">    
                                             <div class="portfolio-info" >  
                                                 <h3>Forecating Flu Cases in Australia</h3>
@@ -449,10 +446,10 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/cv.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/cv.jpeg"><i
                                                                                                              class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/cv.jpeg" alt="image">
+                                        <img src="assets/images/cv.jpeg" alt="" width="1600" height="900" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Object-Detection-with-YOLOv2-in-TensorFlow">    
                                             <div class="portfolio-info" >  
                                                 <h3>Object Detection with YOLOv2</h3>
@@ -466,11 +463,11 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/bp.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/bp.jpeg"><i
                                                                                                                     class="fa fa-search-plus"></i></a>
 
                                         </div>
-                                        <img src="assets/images/bp.jpeg" alt="image">
+                                        <img src="assets/images/bp.jpeg" alt="" width="1170" height="555" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Business_process_mining">
                                             <div class="portfolio-info">
                                                 <h3>Business Process Mining</h3>
@@ -484,11 +481,11 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/tseries1.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/tseries1.jpeg"><i
                                                                                                                     class="fa fa-search-plus"></i></a>
 
                                         </div>
-                                        <img src="assets/images/tseries1.jpeg" alt="image">
+                                        <img src="assets/images/tseries1.jpeg" alt="" width="1280" height="800" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Time-Series-Forecasting-with-CNNs-and-RNNs-on-Sunspots-Activity">
                                             <div class="portfolio-info">
                                                 <h3>Forecasting Sun Spots Activity</h3>
@@ -502,10 +499,10 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/tseries2.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/tseries2.jpeg"><i
                                                                                                             class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/tseries2.jpeg" alt="image">
+                                        <img src="assets/images/tseries2.jpeg" alt="" width="1050" height="520" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Time-Series-Forecasting-on-Climate-Data-with-RNN-">
                                             <div class="portfolio-info">
                                                 <h3>Forecasting Climate Data with RNN's</h3>
@@ -519,9 +516,9 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/realestate.jpeg"><i class="fa fa-search-plus"></i></a>
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/realestate.jpeg"><i class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/realestate.jpeg" alt="image">
+                                        <img src="assets/images/realestate.jpeg" alt="" width="4000" height="2250" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Australian_real_estate_analysis">
                                             <div class="portfolio-info">
                                                 <h3>Australian Real Estate Analysis</h3>
@@ -535,9 +532,9 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/taxi.jpeg"><i class="fa fa-search-plus"></i></a>
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/taxi.jpeg"><i class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/taxi.jpeg" alt="image">
+                                        <img src="assets/images/taxi.jpeg" alt="" width="508" height="339" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Analysing_and_Predicting_Uber_Fare">
                                             <div class="portfolio-info">
                                                 <h3>Analysing and Predicting Uber Fare</h3>
@@ -551,10 +548,10 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/data-privacy.jpg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/data-privacy.jpg"><i
                                                                                                            class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/data-privacy.jpg" alt="image">
+                                        <img src="assets/images/data-privacy.jpg" alt="" width="2877" height="1918" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Big-Data-Processing">
                                             <div class="portfolio-info">
                                                 <h3>Big Data Processing</h3>
@@ -568,10 +565,10 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/credit.jpeg"><i
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/credit.jpeg"><i
                                                                                                                 class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/credit.jpeg" alt="image">
+                                        <img src="assets/images/credit.jpeg" alt="" width="800" height="605" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Credit_risk_modelling">
                                             <div class="portfolio-info">
                                                 <h3>Credit Risk Modelling</h3>
@@ -585,9 +582,9 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/bd.jpeg"><i class="fa fa-search-plus"></i></a>
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/bd.jpeg"><i class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/bd.jpeg" alt="image">
+                                        <img src="assets/images/bd.jpeg" alt="" width="690" height="400" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Machine-Learning-with-Big-Data">
                                             <div class="portfolio-info">
                                                 <h3>Machine Learning with Big Data</h3>
@@ -601,9 +598,9 @@
                                     <div class="portfolio">
                                         <div class="tt-overlay"></div>
                                         <div class="links">
-                                            <a class="image-link" href="assets/images/nlp1.jpeg"><i class="fa fa-search-plus"></i></a>
+                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/nlp1.jpeg"><i class="fa fa-search-plus"></i></a>
                                         </div>
-                                        <img src="assets/images/nlp1.jpeg" alt="image">
+                                        <img src="assets/images/nlp1.jpeg" alt="" width="600" height="400" loading="lazy" decoding="async">
                                         <a style="display: block;" href = "https://github.com/Shiivong27/Text_Classification_on_Restaurant_Reviews">
                                             <div class="portfolio-info">
                                                 <h3>NLP on Restaurant Reviews</h3>
@@ -753,11 +750,29 @@
 
 <section id="recommendations" class="resume-section section-padding" style="background-color: #FAFAFA;">
     <div class="container">
-        <h4 class="section-title wow fadeInUp">Recommendations</h4>
+        <h2 class="section-title wow fadeInUp">Recommendations</h2>
         <div class="row">
             <div class="col-md-12">
                 <div class="resume">
                     <ul class="timeline">
+                        <li>
+                            <div class="posted-date">
+                                <span class="month" style="background-color: #FAFAFA;">Jul'26</span>
+                            </div>
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Adwait Dhole</h3>
+                                        <span>Principal Consultant, NTT Data Australia</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p><q>Shivong has strong data engineering and analytics capabilities, with the ability to design and deliver robust solutions for complex business challenges. What sets him apart, however, is that he doesn't just focus on the technology—he takes the time to understand the underlying business problem, works closely with clients to uncover their challenges, and draws on both his experience and research to develop practical, well-considered solutions.</q></p>
+                                        <p><q>He is also excellent at communicating complex concepts in a way that clients can understand, ensuring they are aligned with the proposed solution before implementation begins. This collaborative and thoughtful approach builds confidence and leads to better outcomes.</q></p>
+                                        <p><q>Beyond his technical and consulting skills, Shivong brings a consistently positive attitude to every engagement. He is dependable, calm under pressure, and someone you can trust as a safe pair of hands when delivering complex projects. I have thoroughly enjoyed working with Shivong and would be happy to work with him again on future projects.</q></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <li class="timeline-inverted">
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">Dec'21</span>
@@ -895,13 +910,37 @@
 
 <section id="pubAndCert" class="resume-section section-padding" style="background-color: #FAFAFA;">
     <div class="container">
-        <h4 class="section-title wow fadeInUp">Publications and Certifications</h4>
+        <h2 class="section-title wow fadeInUp">Publications and Certifications</h2>
         <div class="row">
             <div class="col-md-12">
                 <div class="resume">
                     <ul class="timeline">
                         
                         <li class="timeline-inverted">
+                            <div class="posted-date">
+                                <span class="month" style="background-color: #FAFAFA;">2026</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Fabric Data Engineer Associate</h3>
+                                        <span><strong>DP-700</strong></span>
+                                    </div><!-- /timeline-heading -->
+
+                                    <div class="timeline-body">
+                                        <p>
+                                            • Implement and manage an analytics solution.<br><br>
+                                            • Ingest and transform data.<br><br>
+                                            • Monitor and optimize an analytics solution.<br><br>
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
+                                               href="https://learn.microsoft.com/en-us/users/birlashiivong-1879/credentials/cf263297536cc0a6?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify certification</a>
+                                        </p>
+                                    </div><!-- /timeline-body -->
+                                </div> <!-- /timeline-content -->
+                            </div><!-- /timeline-panel -->
+                        </li>
+                        <li>
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2026</span>
                             </div><!-- /posted-date -->
@@ -919,42 +958,17 @@
                                             • Secure and maintain analytics assets.<br><br>
                                             • Implement and manage semantic models.<br><br>
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank"
+                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://learn.microsoft.com/en-us/users/shiivongkapilbirla-2778/credentials/d8506482da70c76e?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify via Credly</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div><!-- /timeline-panel -->
                         </li>
-                        
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2022</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Lakehouse Fundamentals</h3>
-                                        <span>Databricks</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                          • The Databricks Accredited Lakehouse Platform Fundamentals accreditation exam will test your knowledge about fundamental concepts related to the Databricks Lakehouse Platform. Questions will assess how well you know about the platform in general, how familiar you are with the individual components of the platform, and your ability to describe how the platform helps organizations accomplish their data engineering, data science/machine learning, and business/SQL analytics use cases. Please note that this assessment will not test your ability to perform tasks using Databricks functionality. Instead, it will test how well you can explain components of the platform and how they fit together.
-                                            <br><br>
-                                            <a class="link" target="_blank"
-                                               href="https://credentials.databricks.com/ab135037-4dd8-43c2-a293-4cf5a669276b">See certification</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        
                         <li class="timeline-inverted">
                             <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2026</span>
+                                <span class="month" style="background-color: #FAFAFA;">2023</span>
                             </div><!-- /posted-date -->
 
                             <div class="timeline-panel wow fadeInUp">
@@ -971,16 +985,38 @@
                                             • Monitor data usage.<br><br>
                                             • Optimize performance of the data analytics solutions.
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank"
+                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://www.credly.com/badges/9cfea382-ed2f-4936-a03d-cd4c74d73957">Verify via Credly</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div><!-- /timeline-panel -->
                         </li>
-
                         <li>
+                            <div class="posted-date">
+                                <span class="month" style="background-color: #FAFAFA;">2022</span>
+                            </div><!-- /posted-date -->
+
+                            <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-content">
+                                    <div class="timeline-heading">
+                                        <h3>Lakehouse Fundamentals</h3>
+                                        <span>Databricks</span>
+                                    </div><!-- /timeline-heading -->
+
+                                    <div class="timeline-body">
+                                        <p>
+                                          • The Databricks Accredited Lakehouse Platform Fundamentals accreditation exam will test your knowledge about fundamental concepts related to the Databricks Lakehouse Platform. Questions will assess how well you know about the platform in general, how familiar you are with the individual components of the platform, and your ability to describe how the platform helps organizations accomplish their data engineering, data science/machine learning, and business/SQL analytics use cases. Please note that this assessment will not test your ability to perform tasks using Databricks functionality. Instead, it will test how well you can explain components of the platform and how they fit together.
+                                            <br><br>
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
+                                               href="https://credentials.databricks.com/ab135037-4dd8-43c2-a293-4cf5a669276b">See certification</a>
+                                        </p>
+                                    </div><!-- /timeline-body -->
+                                </div> <!-- /timeline-content -->
+                            </div> <!-- /timeline-panel -->
+                        </li>
+                        <li class="timeline-inverted">
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2022</span>
                             </div><!-- /posted-date -->
@@ -1000,15 +1036,14 @@
                                             languages, such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture 
                                             patterns.
                                             <br><br>
-                                            <a class="link" target="_blank"
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://www.credly.com/badges/36b40d69-c08d-4611-addf-c145dc38faab">Verify via Credly</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div> <!-- /timeline-panel -->
                         </li>
-
-                        <li class="timeline-inverted">
+                        <li>
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2020</span>
                             </div><!-- /posted-date -->
@@ -1027,15 +1062,15 @@
                                             • Use dynamic programming, hidden Markov models, and word embeddings to autocorrect misspelled words, autocomplete partial sentences, and identify part-of-speech tags for words.<br><br>
                                             • Use encoder-decoder, causal, and self-attention to perform advanced machine translation of complete sentences, text summarization, question-answering, and build chatbots. Models covered include T5, BERT, transformer, reformer, and more!
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank"
+                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://www.coursera.org/account/accomplishments/specialization/certificate/HMBSBJQG89GQ">See certification</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div><!-- /timeline-panel -->
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2020</span>
                             </div><!-- /posted-date -->
@@ -1054,14 +1089,14 @@
                                             • Handle real-world image data and explore strategies to prevent overfitting, including augmentation and dropout.<br><br>
                                             • Apply RNNs, GRUs, and LSTMs as you train them using text repositories.    
                                             <br><br>
-                                            <a class="link" target="_blank"
+                                            <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://www.coursera.org/account/accomplishments/specialization/certificate/LNBBQH4R5W5W">See certification</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div> <!-- /timeline-panel -->
                         </li>
-                        <li class="timeline-inverted">
+                        <li>
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2016</span>
                             </div><!-- /posted-date -->
@@ -1079,16 +1114,15 @@
                                             an IEEE paper publication to address the problem of privacy in Data Mining and to suggest a
                                             simple yet effective way to preserve the privacy by hiding the sensitive data before using Data
                                             Mining algorithms.<br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" href="">Click Here</a>.<br> -->
-                                            To access the paper, <a class="link" target="_blank"
+                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
+                                            To access the paper, <a class="link" target="_blank" rel="noopener noreferrer"
                                                                               href="https://ieeexplore.ieee.org/document/7746326">See publication</a>
                                         </p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div><!-- /timeline-panel -->
                         </li>
-
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="posted-date">
                                 <span class="month" style="background-color: #FAFAFA;">2015</span>
                             </div><!-- /posted-date -->
@@ -1104,7 +1138,7 @@
                                         <p>
                                         • Co-authored a paper on Data Mining on factors that affect a students' performance at school.                                            
                                             <br><br>
-                                          To access the paper, <a class="link" target="_blank"
+                                          To access the paper, <a class="link" target="_blank" rel="noopener noreferrer"
                                                href="https://www.ijcaonline.org/archives/volume146/number15/kohli-2016-ijca-910717.pdf">See publication</a>
                                         </p>
                                     </div><!-- /timeline-body -->
@@ -1150,7 +1184,7 @@
                     <i class="fa fa-envelope"></i>
                     <div class="contact-number">
                         <strong>E-mail</strong>
-                        shiivongbirla27@gmail.com
+                        <a href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -1162,6 +1196,7 @@
 </section><!-- End Contact Section -->
 
 
+</main>
 <!-- Footer Section -->
 <footer class="footer-wrapper">
     <div class="container">
@@ -1178,7 +1213,7 @@
 
 <!-- Scroll-up -->
 <div class="scroll-up">
-    <a href="#home"><i class="fa fa-angle-up"></i></a>
+    <a href="#home" aria-label="Back to top"><i class="fa fa-angle-up"></i></a>
 </div>
 
 <!-- Javascript files -->
@@ -1187,8 +1222,8 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.stellar.min.js"></script>
 <script src="assets/js/jquery.sticky.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
+
+
 <script src="assets/js/jquery.countTo.js"></script>
 <script src="assets/js/jquery.inview.min.js"></script>
 <script src="assets/js/jquery.easypiechart.js"></script>
@@ -1196,7 +1231,11 @@
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/jquery.fitvids.js"></script>
 <script src="assets/js/scripts.js"></script>
-<script src="assets/js/animated-headline.js"></script>
+<script>if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var headlineScript = document.createElement("script");
+    headlineScript.src = "assets/js/animated-headline.js";
+    document.body.appendChild(headlineScript);
+}</script>
 </body>
 
 </html>
