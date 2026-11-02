@@ -1,1241 +1,823 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Shiivong Birla" />
-        <!--<meta property="og:description"        content="I am a fully professional freelance creative User Interface Designer & Developer. Feel free to contact." />-->
-
-
-        <title style="font-size: 26px">Shiivong Birla</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <!-- Font Awesome CSS -->
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-        <!-- Animate css -->
-        <link href="assets/css/animate.css" rel="stylesheet">
-        <!-- Magnific css -->
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
-        <!-- Custom styles CSS -->
-        <link href="assets/css/style.css" rel="stylesheet" media="screen">
-        <!-- Responsive CSS -->
-        <link href="assets/css/responsive.css" rel="stylesheet">
-        <!-- Animated Headline -->
-        <link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css">
-        <!-- Roboto Web Font-->
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-
-        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
-    </head>
-
-    <body style="background-color: #FAFAFA; font-family: 'Roboto', sans-serif; font-weight: 400">
-        <a class="skip-link" href="#main-content">Skip to content</a>
-        <main id="main-content">
-        <!-- Home Section -->
-        <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-            <div class="intro">
-
-                <h1 class="tt-headline letters type"> <!--letters type was the original class code-->
-                    <!-- you can use "rotate-1", "letters type", "letters rotate-2", "letters rotate-3", "letters scale", "loading-bar", "slide", "clip is-full-width", "push" -->
-                    <span class="intro-sub">Shiivong Birla</span>
-                    <span class="sr-only">Data Engineer / Data Governance Engineer</span>
-                    <span class="tt-words-wrapper" aria-hidden="true">
-                        <b class="is-visible">Data Engineer</b>
-                        <b>Data Governance Engineer</b>
-                        
-                        
-                    </span>
-                </h1>
-                <br><br>
-                <div>
-                    <h3>
-                    <p><span>Data Engineer - NTT Data Australia</span>
-                        <br><span>Master of Data Science - Monash University</span>
-                    </p>
-                </h3>
-                </div><br>
-
-                <div class="social-icons">
-                    <ul class="list-inline">
-                        <li><a target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" href="https://www.linkedin.com/in/shiivong-birla/"><i
-                                                                                                            class="fa fa-linkedin"></i></a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" aria-label="GitHub" href="https://github.com/Shiivong27"><i
-                                                                                                            class="fa fa-github"></i></a></li>
-                    </ul>
-                </div> <!-- /.social-icons -->
-            </div>
-
-            <div class="mouse-icon">
-                <div class="wheel"></div>
-            </div>
-        </section><!-- End Home Section -->
-
-
-
-
-        <!-- Navigation -->
-        <header class="header">
-            <nav class="navbar navbar-custom" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse" aria-controls="custom-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="custom-collapse">
-                        <ul class="nav navbar-nav navbar-center">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#workEx">Experience</a></li>
-                             <li><a href="#projects">Projects</a></li> 
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Get in touch</a></li>
-                            <li><a href="#recommendations">Recommendations</a></li>
-                            <li><a href="#pubAndCert">Publications & Certifications</a></li>
-                            <!-- <li class="testimonial-check"><a href="#testimonials">Testimonials</a></li> -->
-                        </ul>
-                    </div>
-                </div><!-- .container -->
-            </nav>
-        </header><!-- End Navigation -->
-
-
-        <!-- About Section -->
-        <section id="about" class="about-section section-padding">
-            <div class="container">
-                <h2 class="section-title wow fadeInUp">About Me</h2>
-
-                <div class="row">
-
-                    <div class="col-md-4 col-md-push-8">
-                        <div class="biography">
-                            <div class="myphoto">
-                                <img src="assets/images/portrait-optimized.jpg" alt="Shiivong Birla" width="800" height="600" loading="lazy" decoding="async">
-                            </div>
-                            <ul>
-                                <li><strong>Name : </strong>Shiivong Birla</li>
-                                <li><strong>Date of Birth : </strong>27 February 1995</li>  
-                                <li><strong>Email : </strong><a href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com</a></li>
-                            </ul>
-                        </div>
-                    </div> <!-- col-md-4 -->
-
-                    <div class="col-md-8 col-md-pull-4">
-                        <div class="short-info wow fadeInUp">
-                            <!-- <h3>Objective</h3> -->
-                            <p>I am a Data Engineer / Machine Learning Engineer by profession, with a Master’s degree in Data Science from Monash University. 
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Shiivong Birla — Senior Data Engineer specialising in Azure, Microsoft Fabric, Databricks and Data Governance."><link rel="canonical" href="https://shiivong27.github.io/"><meta name="theme-color" content="#080f1e"><meta property="og:type" content="website"><meta property="og:title" content="Shiivong Birla | The Data Architect"><meta property="og:description" content="Data engineering, cloud platforms, and interconnected systems. Explore Shiivong Birla’s work, experience and credentials."><meta property="og:url" content="https://shiivong27.github.io/"><title>Shiivong Birla | The Data Architect</title><link rel="icon" href="assets/images/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/css/portfolio.css"><script src="assets/js/portfolio.js" defer></script><noscript><style>@media(max-width:1000px){.site-header{flex-wrap:wrap}.menu-toggle{display:none}#navigation{display:grid;position:static;flex-basis:100%;box-shadow:none;margin-top:12px}}.project-filters,.project-count,.image-zoom,.motion-toggle{display:none}</style></noscript>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="scroll-progress" aria-hidden="true">
+</div>
+<header class="site-header"><a class="brand" href="#home" aria-label="Shiivong Birla home">s<span>b</span><i aria-hidden="true">.</i></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+<nav id="navigation" aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#workEx">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#recommendations">Recommendations</a><a href="#pubAndCert">Credentials</a><a href="#contact">Contact</a>
+</nav>
+<a class="header-contact" href="mailto:shiivongbirla27@gmail.com">Let’s connect <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main-content">
+<section id="home" class="hero" aria-labelledby="hero-title">
+<div class="hero-orbit" aria-hidden="true">
+</div>
+<div class="hero-copy">
+<div class="eyebrow hero-enter"><span class="status-dot"></span> MELBOURNE, AUSTRALIA</div>
+<p class="hero-pretitle hero-enter">THE DATA ARCHITECT</p>
+<h1 id="hero-title" class="hero-enter">Shiivong<br><span>Birla</span><i>.</i>
+</h1>
+<p class="hero-role hero-enter">Senior Data Engineer</p>
+<p class="hero-governance hero-enter">Data Governance Engineer</p>
+<p class="hero-specialties hero-enter">Azure <span>/</span> Microsoft Fabric <span>/</span><br>Databricks <span>/</span> Data Governance</p>
+<div class="hero-actions hero-enter"><a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+</div>
+<div class="social-links hero-enter"><a href="https://www.linkedin.com/in/shiivong-birla/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/Shiivong27" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+<div class="architecture" aria-label="Interactive conceptual data architecture">
+<div class="architecture-top"><span class="status-dot"></span> CONNECTED SYSTEMS <button class="motion-toggle" type="button" aria-pressed="false">Pause motion</button><span class="architecture-id">FIG. 01</span>
+</div>
+<div class="architecture-map">
+<svg class="network-lines" viewBox="0 0 600 500" preserveAspectRatio="none" aria-hidden="true">
+<defs><linearGradient id="flow"><stop stop-color="#19dad6"/><stop offset="1" stop-color="#8a72f8"/></linearGradient>
+</defs>
+<g class="network-grid"><path d="M0 100H600 M0 200H600 M0 300H600 M0 400H600 M100 0V500 M200 0V500 M300 0V500 M400 0V500 M500 0V500"/>
+</g>
+<g class="routes"><path data-route="sources ingestion" d="M65 225L185 120"/><path data-route="ingestion bronze" d="M185 120L325 65"/><path data-route="bronze silver" d="M325 65L435 150"/><path data-route="silver gold" d="M435 150L435 300"/><path data-route="gold analytics" d="M435 300L555 245"/><path data-route="silver ml" d="M435 150L320 430"/><path data-route="gold ml" d="M435 300L320 430"/><path class="governance-route" data-route="governance sources" d="M175 340Q85 257.5 65 225"/><path class="governance-route" data-route="governance ingestion" d="M175 340Q145 205 185 120"/><path class="governance-route" data-route="governance bronze" d="M175 340Q215 177.5 325 65"/><path class="governance-route" data-route="governance silver" d="M175 340Q270 220 435 150"/><path class="governance-route" data-route="governance gold" d="M175 340Q270 295 435 300"/><path class="governance-route" data-route="governance analytics" d="M175 340Q330 267.5 555 245"/><path class="governance-route" data-route="governance ml" d="M175 340Q212.5 360 320 430"/></g>
+<g class="signals"><path d="M65 225L185 120"/><path d="M185 120L325 65"/><path d="M325 65L435 150"/><path d="M435 150L435 300"/><path d="M435 300L555 245"/><path d="M435 150L320 430"/><path d="M435 300L320 430"/></g>
+</svg>
+<button class="system-node" aria-describedby="node-detail" data-node="sources" style="--x:10.8333%;--y:45%" data-description="Enterprise data starts in diverse source systems: SAP, Oracle, files, and databases." title="Enterprise data starts in diverse source systems: SAP, Oracle, files, and databases."><span class="node-symbol" aria-hidden="true">▤</span><span>Sources</span></button>
+<button class="system-node" aria-describedby="node-detail" data-node="ingestion" style="--x:30.8333%;--y:24%" data-description="Pipelines bring source data into the platform. Azure and Fabric connect the layers." title="Pipelines bring source data into the platform. Azure and Fabric connect the layers."><span class="node-symbol" aria-hidden="true">⇢</span><span>Ingestion</span></button>
+<button class="system-node bronze" aria-describedby="node-detail" data-node="bronze" style="--x:54.1667%;--y:13%" data-description="Bronze retains a raw replica of source data as the foundation of the platform." title="Bronze retains a raw replica of source data as the foundation of the platform."><span class="node-symbol" aria-hidden="true">B</span><span>Bronze</span></button>
+<button class="system-node silver" aria-describedby="node-detail" data-node="silver" style="--x:72.5%;--y:30%" data-description="Silver cleans and transforms data into consistent, usable structures." title="Silver cleans and transforms data into consistent, usable structures."><span class="node-symbol" aria-hidden="true">S</span><span>Silver</span></button>
+<button class="system-node gold" aria-describedby="node-detail" data-node="gold" style="--x:72.5%;--y:60%" data-description="Gold prepares reporting views for semantic models and downstream analytics." title="Gold prepares reporting views for semantic models and downstream analytics."><span class="node-symbol" aria-hidden="true">G</span><span>Gold</span></button>
+<button class="system-node governance" aria-describedby="node-detail" data-node="governance" style="--x:29.1667%;--y:68%" data-description="Governance spans the entire lifecycle: sources, ingestion, Bronze, Silver, Gold, analytics, and machine learning datasets. Microsoft Purview supports metadata, classification, and lineage across the platform." title="Governance spans the entire lifecycle: sources, ingestion, Bronze, Silver, Gold, analytics, and machine learning datasets. Microsoft Purview supports metadata, classification, and lineage across the platform."><span class="node-symbol" aria-hidden="true">◇</span><span>Governance</span></button>
+<button class="system-node" aria-describedby="node-detail" data-node="analytics" style="--x:92.5%;--y:49%" data-description="Semantic models and Power BI turn curated data into business insight." title="Semantic models and Power BI turn curated data into business insight."><span class="node-symbol" aria-hidden="true">↗</span><span>Analytics</span></button>
+<button class="system-node machine-learning" aria-describedby="node-detail" data-node="ml" style="--x:53.3333%;--y:86%" data-description="Machine learning datasets can be prepared from cleaned Silver data and curated Gold data. Governance spans their lineage, quality, and access." title="Machine learning datasets can be prepared from cleaned Silver data and curated Gold data. Governance spans their lineage, quality, and access."><span class="node-symbol" aria-hidden="true">ML</span><span>Machine Learning</span></button>
+<div class="map-caption">AZURE / FABRIC / DATABRICKS</div>
+</div>
+<div class="architecture-bottom"><span class="node-detail" id="node-detail" role="status">Explore a node. Cyan paths carry data; violet paths show governance.</span><span class="concept-label">CONCEPTUAL ARCHITECTURE</span>
+</div>
+</div>
+<div class="hero-bottom"><span>Senior Data Engineer - Brennan Australia<br>Master of Data Science - Monash University</span><a href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a><span class="hero-coordinate" aria-hidden="true">01 / 09</span>
+</div>
+</section>
+<div class="technology-strip" aria-label="Specialisations"><span>Azure</span><span>Microsoft Fabric</span><span>Databricks</span><span>Microsoft Purview</span><span>Python</span><span>SQL</span>
+</div>
+<section id="about" class="section about" aria-labelledby="about-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>01</span> / BEHIND THE SYSTEMS</div>
+<h2 id="about-title">About Me<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="about-layout">
+<aside class="portrait-panel reveal">
+<div class="portrait-frame"><img src="assets/images/portrait-optimized.jpg" width="600" height="800" alt="Shiivong Birla" loading="lazy"><span class="portrait-corner" aria-hidden="true">SB / 01</span>
+</div>
+<ul class="personal-info">
+<li><strong>Name : </strong>Shiivong Birla</li>
+<li><strong>Date of Birth : </strong>27 February 1995</li>
+<li><strong>Email : </strong><a href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com</a>
+</li>
+</ul>
+</aside>
+<div class="biography reveal">
+<p>I am a Data Engineer / Machine Learning Engineer by profession, with a Master’s degree in Data Science from Monash University.
                                 <br><br>
                                 My expertise includes working with large data sets to develop analyses that align with the company’s goals. In my previous roles, I created visualisations to communicate key business insights to shareholders from multiple teams.
                                 I excel at coming up with technical data solutions to help solve real-world business issues while effectively communicating these analyses, predictions, and ideas with the team and various shareholders to quickly come up with scalable prototypes to get a clear measure of growth.
                                 <br><br>
-                                Garnering work experience from the corporate firms of all sizes, I’m a critical thinker driven by the fascination of technology with an urge to create a positive impact on businesses. Some of the domains I've worked in are Energy & Gas, Healthcare, Financial Services, and Insurance. 
+                                Garnering work experience from the corporate firms of all sizes, I’m a critical thinker driven by the fascination of technology with an urge to create a positive impact on businesses. Some of the domains I've worked in are Energy & Gas, Healthcare, Financial Services, and Insurance.
                                 <br><br>
-                                When I'm not breaking my head on fixing bugs in my code, you could find me playing Bass Guitar, Football, or keeping up to date on geopolitics. I am also deeply curious about the financial world, and actively invest in the growing Indian market. 
-                                
+                                When I'm not breaking my head on fixing bugs in my code, you could find me playing Bass Guitar, Football, or keeping up to date on geopolitics. I am also deeply curious about the financial world, and actively invest in the growing Indian market.
+
                             </p>
-                        </div>
-
-                        <div class="short-info wow fadeInUp">
-                            <!-- <h3>What I Do ?</h3>
-<p>I am a self-taught web developer. I have been working as a web developer since 2013. I love clean, elegant styling. I think of user experience when I try to craft something. </p> -->
-
-                            <ul class="list-check">
-                                <li>Data Engineering</li>
-                                <li>Microsoft Azure</li>
-                                <li>Microsoft Fabric</li>
-                                <li>Microsoft Purview</li>
-                                <li>Advanced Data Analysis</li>
-                                <li>Time-Series Forecasting</li>
-                                <li>Natural Language Processing</li>
-                                <li>Machine Learning</li>
-                             
-                            </ul>
-                        </div>
-
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section><!-- End About Section -->
-    
-        <section id="education" class="resume-section section">
-            <div class="container">
-                <h2 class="section-title wow fadeInUp">Education</h2>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="resume">
-                            <ul class="timeline">
-                                <li>
-                                    <div class="posted-date">
-                                        <span class="month" style="background-color: #FAFAFA">Jul'18 - Jul'20</span>
-                                    </div><!-- /posted-date -->
-        
-                                    <div class="timeline-panel wow fadeInUp">
-                                        <div class="timeline-content">
-                                            <div class="timeline-heading">
-                                                <h3>Master of Data Science</h3>
-                                                <span>Monash University, Melbourne, Australia</span>
-                                            </div><!-- /timeline-heading -->
-        
-                                            <div class="timeline-body">
-                                                <p>Major - Big Data</p>
-                                            </div><!-- /timeline-body -->
-                                        </div> <!-- /timeline-content -->
-                                    </div><!-- /timeline-panel -->
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="posted-date">
-                                        <span class="month" style="background-color: #FAFAFA;">Jul'13 - Jul'17</span>
-                                    </div><!-- /posted-date -->
-        
-                                    <div class="timeline-panel wow fadeInUp">
-                                        <div class="timeline-content">
-                                            <div class="timeline-heading">
-                                                <h3>Bachelor of Technology in Computer Science</h3>
-                                                <span>Vellore Institute of Technology, Vellore, India</span>
-                                            </div><!-- /timeline-heading -->
-        
-                                            <div class="timeline-body">
-                                                <p>Major - Data Science</p>
-                                            </div><!-- /timeline-body -->
-                                        </div> <!-- /timeline-content -->
-                                    </div><!-- /timeline-panel -->
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- /row -->
-            </div>
-        </section>
-
-        <section id="workEx" class="resume-section section">
-            <div class="container">
-                <h2 class="section-title wow fadeInUp">Work Experience</h2>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="resume">
-                            <ul class="timeline">
-                                <li>
-                                    <div class="posted-date">
-                                        <span class="month" style="background-color: #FAFAFA;">Feb'23 – Present</span>
-                                    </div><!-- /posted-date -->
-    
-                                    <div class="timeline-panel wow fadeInUp">
-                                        <div class="timeline-content">
-                                            <div class="timeline-heading">
-                                                <h3>Senior Data Engineer</h3>
-                                                <span>NTT Data Australia, Melbourne</span>
-                                            </div><!-- /timeline-heading -->
-    
-                                            <div class="timeline-body">
-                                                <p>
-                                                <ul type="square">
-                                                    <li>
-                                                      
-                                                        • Massively contributed to the Data Engineering track of the Modern Data Platform initiative at Toyota Motor Corporation Australia (TMCA), building scalable, metadata-driven pipelines by leveraging the dynamic query mapping (DQM) technique on Microsoft Fabric's Data Factory. Developed end-to-end data ingestion workflows using Data Factory to process large CSV, XML, SAP, Oracle, Flat Files and SQL Database sources. Implemented Medallion architecture on the Data Warehouse with Bronze (raw replica), Silver (cleaning + transformations), and Gold (reporting views) layers. Enabled downstream semantic models and Power BI reporting by designing optimized data flows across the layered architecture.
-                                                        <br></br>
-                                                        • Led the Microsoft Purview implementation as part of the Modern Data Platform initiative at Toyota Motor Corporation Australia (TMCA), enabling enterprise-wide data governance. Built a scalable Python-based codebase entirely within Microsoft Fabric notebooks to automate metadata ingestion and lineage mapping. Designed and deployed pipelines capturing table and column-level lineage across SAP ECC and Microsoft Fabric layers. Created custom entity types using PyApacheAtlas and automated glossary term mapping and classification to enhance data discoverability and compliance.
-                                                        <br></br>
-                                                        • Played a key role at Australian Community Service Organisation (ACSO) on Databricks to modernise their data engineering ecosystem by implementing Autoloader-based ingestion pipelines and Change Data Capture (CDC) patterns for efficient incremental processing. Designed and delivered a complete Medallion Architecture, ensuring scalable, high-quality data flows.
-                                                        <br></br>
-                                                        • Partnered with stakeholders across the Department of Health to analyze data sources and enforce secure access through Microsoft Purview's Identity Access Management. Contributed to the development of a comprehensive data governance plan, outlining project goals, resource needs, and an implementation roadmap to strengthen data security and compliance.
-                                                    </li>
-                                                </ul>
-                                                </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-                                <li><li class="timeline-inverted">
-                                    <div class="posted-date">
-                                        <span class="month" style="background-color: #FAFAFA;">Jun’22 - Dec'22</span>
-                                    </div><!-- /posted-date -->
-        
-                                    <div class="timeline-panel wow fadeInUp">
-                                        <div class="timeline-content">
-                                            <div class="timeline-heading">
-                                                <h3>Senior Data Engineer</h3>
-                                                <span>Mott MacDonald Australia, Adelaide</span>
-                                            </div><!-- /timeline-heading -->
-        
-                                            <div class="timeline-body">
-                                                <p>
-                                                <ul type="circle">
-                                                    <li>• Played a pivotal role in the advancement of Moata, an in-house Advanced Analytics proprietary tool hosted on Azure, by contributing to its development. Orchestrated the integration of the platform with key technologies such as Python, GitHub Actions, Logic Apps, and Power BI Dashboards. This integration facilitated a sophisticated data-driven approach to address Geo-spatial Time-series business use cases, encompassing critical areas like Network Capacity and Workload, Electricity Demand and Consumption, and Predictive Maintenance. Notably, the tool proved instrumental in proactively identifying faults well before they could manifest. 
-                                                        <br></br>
-                                                        • Demonstrated proficiency in developing Geospatial solutions using Python on ArcGIS Pro, strategically leveraging Python toolboxes to seamlessly interact with Moata. This involvement encompassed essential functions such as uploading, downloading, and updating Geospatial assets. The application of Python in this context showcased a nuanced understanding of both Geospatial technology and data management within the Moata framework.
-                                                        <br></br>
-                                                        • Facilitated effective communication and collaboration among diverse Engineering teams, including Electrical, Mechanical, Structural, and Design, to comprehend and compile Business Requirements for Data-Driven Solutions. Led the initiative to evaluate the feasibility of Business Cases, ensuring alignment with organizational objectives. This role required adept coordination to bridge technical and business perspectives, fostering the development of innovative solutions grounded in comprehensive business understanding.
-                                                        </li>
-                                                </ul>
-                                                </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                            </li></li>
-                                <li>
-                                    <div class="posted-date">
-                                        <span class="month" style="background-color: #FAFAFA;">Nov’21 – Apr'22</span>
-                                    </div><!-- /posted-date -->
-
-                                    <div class="timeline-panel wow fadeInUp">
-                                        <div class="timeline-content">
-                                            <div class="timeline-heading">
-                                                <h3>Senior Data Engineer</h3>
-                                                <span>KPMG Australia, Adelaide</span>
-                                            </div><!-- /timeline-heading -->
-
-                                            <div class="timeline-body">
-                                                <p>
-                                                <ul type="square">
-                                                    <li>
-                                                      
-                                                        • Spearheaded the development of a Proof of Concept (POC) in Tableau with a focus on forecasting metrics such as Revenue and Sales for a prominent convenience store flagship. The objective was to systematically identify suburbs with the highest retail growth potential, utilizing factors such as Population growth, Income growth, and Footfall. This data-driven approach aimed to provide actionable insights for strategic decision-making in expanding retail operations.
-                                                        <br></br>
-                                                        • Utilized Terraform to orchestrate the deployment of Infrastructure on Azure, demonstrating adeptness in ensuring a robust and scalable foundation. Pioneered the development of Data Pipelines using Azure Data Factory to streamline the integration of data from diverse sources. Employing an efficient data wrangling process, the curated data was seamlessly transferred to Azure SQL Data Warehouse for further processing. The comprehensive workflow incorporated Continuous Integration/Continuous Deployment (CI/CD) practices with Git integration, showcasing a commitment to operational excellence in an internal Proof of Concept for a prominent logistics company.
-                                                    </li>
-                                                </ul>
-                                                </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                            
-
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Nov’20 - Nov’21</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Data Engineer</h3>
-                                        <span>Enzen Australia, Adelaide</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                        <ul type="circle">
-                                            <li>• Engineered comprehensive Data Pipelines to efficiently ingest, integrate, clean, and process data from multiple sources, managing the volume of gas faults in the expansive network of Australia's largest Gas Infrastructure Group (AGIG). Leveraging Dataproc and BigQuery on Google Cloud Platform, the implemented pipelines showcased a robust and scalable solution for managing complex datasets. 
-                                                <br></br>
-                                                • Innovatively designed and implemented an advanced Forecasting model on Google Cloud Platform using the PyTorch-based NeuralProphet library within Jupyter Notebooks. This initiative resulted in a noteworthy 32% reduction in field resource allocation costs. Subsequently, enhanced the model's efficacy by integrating it with an Autoregressive Neural Network, achieving an additional 17% reduction in field resource allocation costs.
-                                                <br></br>
-                                                • Conducted thorough Data Analysis on gas faults data, integrating the outcomes of the aforementioned forecasting model into a comprehensive Google Data Studio report. This end-to-end Predictive Modelling solution provided stakeholders with actionable insights and a holistic view of the gas network's performance.
-                                                <br></br>
-                                                • Operationalized the developed model on Google Cloud Platform using Docker containers and Crontab, establishing a fully automated Forecasting process. This implementation not only ensured the sustainability of the Predictive Modelling solution but also streamlined and optimized the forecasting workflow for ongoing operational efficiency.
-                                                </li>
-                                        </ul>
-                                        </p>
-                                </div><!-- /timeline-body -->
-                            </div> <!-- /timeline-content -->
-                    </div> <!-- /timeline-panel -->
-                    </li>
-
-
-                <li>
-                    <div class="posted-date">
-                        <span class="month" style="background-color: #FAFAFA;">Jan’20 – Feb’20</span>
-                    </div><!-- /posted-date -->
-
-                    <div class="timeline-panel wow fadeInUp">
-                        <div class="timeline-content">
-                            <div class="timeline-heading">
-                                <h3>Junior Data Scientist</h3>
-                                <span>Deloitte Australia, Melbourne</span>
-                            </div><!-- /timeline-heading -->
-
-                            <div class="timeline-body">
-                                <p>
-                                <ul type="square">
-                                    <li>• Spearheaded the development and optimization of sophisticated Deep Learning models on TensorFlow, specializing in Time-Series Forecasting, Image Classification, Object Detection, and Natural Language Processing. Leveraging Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Generative Adversarial Networks (GANs), these models were intricately crafted atop Apache Spark on Azure. The focus on diverse applications underscored a versatile skill set in harnessing cutting-edge technologies for varied data-driven tasks.
-                                        <br></br>
-                                        • Played an integral role within the Data Modernization team, contributing to the development of SSIS Data Pipelines, SSAS Cubes, and Power BI Reports within the Azure Data Factory framework. This collaborative effort aimed at enhancing data integration, analysis, and visualization capabilities, showcasing a commitment to modernizing data processes and facilitating informed decision-making within the organization.
-                                        </li>
-                                </ul>
-                                </p>
-                        </div><!-- /timeline-body -->
-                    </div> <!-- /timeline-content -->
-            </div><!-- /timeline-panel -->
-            </li>
-            <li class="timeline-inverted">
-                <div class="posted-date">
-                    <span class="month" style="background-color: #FAFAFA;">Jan’17 - Jul’18</span>
-                </div><!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                    <div class="timeline-content">
-                        <div class="timeline-heading">
-                            <h3>Data Analyst</h3>
-                            <span>KPMG India, Bengaluru</span>
-                        </div><!-- /timeline-heading -->
-
-                        <div class="timeline-body">
-                            <p>
-                            <ul type="circle">
-                                <li>• Orchestrated end-to-end development solutions to establish a comprehensive Enterprise-wide Business Intelligence mechanism for Reporting. Utilized tools such as SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), and Power BI to seamlessly integrate and visualize data. This initiative aimed to empower the organization with robust reporting capabilities, fostering informed decision-making across various business units. 
-                                    <br></br>
-                                    • Applied advanced Machine Learning Algorithms in R and Python to tackle intricate business challenges within the Predictive Analytics domain. The optimization of these algorithms demonstrated a commitment to leveraging data-driven insights for strategic decision-making, contributing to enhanced business outcomes. 
-                                    <br></br>
-                                    • Innovatively designed and implemented a fully functional Business Process Mining Shiny application, serving as an in-house tool. This bespoke application showcased a nuanced understanding of business processes and data visualization, providing stakeholders with a powerful tool for process analysis and optimization.                                   
-                                    </li>
-                            </ul>
-                            </p>
-                    </div><!-- /timeline-body -->
-                </div> <!-- /timeline-content -->
-        </div> <!-- /timeline-panel -->
-        </li>
-
-
-
-        </ul>
-    </div>
+<ul class="capability-tags">
+<li>Data Engineering</li>
+<li>Microsoft Azure</li>
+<li>Microsoft Fabric</li>
+<li>Microsoft Purview</li>
+<li>Advanced Data Analysis</li>
+<li>Time-Series Forecasting</li>
+<li>Natural Language Processing</li>
+<li>Machine Learning</li>
+</ul>
 </div>
-</div><!-- /row -->
-</div><!-- /.container -->
+</div>
+</section>
+<section id="education" class="section education" aria-labelledby="education-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>02</span> / THE FOUNDATION</div>
+<h2 id="education-title">Education<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="education-grid">
+<article class="education-card reveal"><span class="eyebrow">Jul&#x27;18 - Jul&#x27;20</span><span class="academic-symbol" aria-hidden="true">◇</span>
+<h3>Master of Data Science</h3>
+<p class="entry-subtitle">Monash University, Melbourne, Australia</p>
+<div class="entry-body">
+<p>Major - Big Data</p>
+</div>
+</article>
+<article class="education-card reveal"><span class="eyebrow">Jul&#x27;13 - Jul&#x27;17</span><span class="academic-symbol" aria-hidden="true">◇</span>
+<h3>Bachelor of Technology in Computer Science</h3>
+<p class="entry-subtitle">Vellore Institute of Technology, Vellore, India</p>
+<div class="entry-body">
+<p>Major - Data Science</p>
+</div>
+</article>
+</div>
+</section>
+<section id="workEx" class="section career" aria-labelledby="workEx-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>03</span> / SYSTEMS BUILT. EXPERIENCE EARNED.</div>
+<h2 id="workEx-title">Work Experience<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="timeline career-timeline">
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Aug&#x27;26 – Present</div>
+<div class="entry-card">
+<div class="entry-index">01</div>
+<h3>Senior Data Engineer</h3>
+<p class="entry-subtitle">Brennan Australia, Melbourne</p>
+<details open>
+<summary>Explore role <span aria-hidden="true">+</span></summary>
+<div class="entry-body">
+<p>• Developed Infrastructure as Code (IaC) using Bicep templates to deploy Azure Databricks, Azure Storage accounts, and Azure Key Vault with private endpoints. Integrated Azure Repos and Azure DevOps deployment pipelines to automate infrastructure delivery through CI/CD.</p>
+<p>• Built an end-to-end data platform on Azure Databricks using YAML-configured pipelines and file-arrival triggers on volumes to orchestrate notebook execution. Implemented a medallion architecture for data ingestion, transformation, cleaning, and aggregation, supporting AI/BI dashboards with Genie capabilities across non-production and production environments.</p>
+<p>• Implemented platform CI/CD using Declarative Automation Bundles (formerly Databricks Asset Bundles). Used YAML-based configurations and deployment pipelines to automatically deploy platform changes on merge.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Feb&#x27;23 – Aug&#x27;26</div>
+<div class="entry-card">
+<div class="entry-index">02</div>
+<h3>Senior Data Engineer</h3>
+<p class="entry-subtitle">NTT Data Australia, Melbourne</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Massively contributed to the Data Engineering track of the Modern Data Platform initiative at Toyota Motor Corporation Australia (TMCA), building scalable, metadata-driven pipelines by leveraging the dynamic query mapping (DQM) technique on Microsoft Fabric's Data Factory. Developed end-to-end data ingestion workflows using Data Factory to process large CSV, XML, SAP, Oracle, Flat Files and SQL Database sources. Implemented Medallion architecture on the Data Warehouse with Bronze (raw replica), Silver (cleaning + transformations), and Gold (reporting views) layers. Enabled downstream semantic models and Power BI reporting by designing optimized data flows across the layered architecture.
+                                                        </p>
+<p>• Led the Microsoft Purview implementation as part of the Modern Data Platform initiative at Toyota Motor Corporation Australia (TMCA), enabling enterprise-wide data governance. Built a scalable Python-based codebase entirely within Microsoft Fabric notebooks to automate metadata ingestion and lineage mapping. Designed and deployed pipelines capturing table and column-level lineage across SAP ECC and Microsoft Fabric layers. Created custom entity types using PyApacheAtlas and automated glossary term mapping and classification to enhance data discoverability and compliance.
+                                                        </p>
+<p>• Played a key role at Australian Community Service Organisation (ACSO) on Databricks to modernise their data engineering ecosystem by implementing Autoloader-based ingestion pipelines and Change Data Capture (CDC) patterns for efficient incremental processing. Designed and delivered a complete Medallion Architecture, ensuring scalable, high-quality data flows.
+                                                        </p>
+<p>• Partnered with stakeholders across the Department of Health to analyze data sources and enforce secure access through Microsoft Purview's Identity Access Management. Contributed to the development of a comprehensive data governance plan, outlining project goals, resource needs, and an implementation roadmap to strengthen data security and compliance.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Jun’22 - Dec&#x27;22</div>
+<div class="entry-card">
+<div class="entry-index">03</div>
+<h3>Senior Data Engineer</h3>
+<p class="entry-subtitle">Mott MacDonald Australia, Adelaide</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Played a pivotal role in the advancement of Moata, an in-house Advanced Analytics proprietary tool hosted on Azure, by contributing to its development. Orchestrated the integration of the platform with key technologies such as Python, GitHub Actions, Logic Apps, and Power BI Dashboards. This integration facilitated a sophisticated data-driven approach to address Geo-spatial Time-series business use cases, encompassing critical areas like Network Capacity and Workload, Electricity Demand and Consumption, and Predictive Maintenance. Notably, the tool proved instrumental in proactively identifying faults well before they could manifest.
+                                                        </p>
+<p>• Demonstrated proficiency in developing Geospatial solutions using Python on ArcGIS Pro, strategically leveraging Python toolboxes to seamlessly interact with Moata. This involvement encompassed essential functions such as uploading, downloading, and updating Geospatial assets. The application of Python in this context showcased a nuanced understanding of both Geospatial technology and data management within the Moata framework.
+                                                        </p>
+<p>• Facilitated effective communication and collaboration among diverse Engineering teams, including Electrical, Mechanical, Structural, and Design, to comprehend and compile Business Requirements for Data-Driven Solutions. Led the initiative to evaluate the feasibility of Business Cases, ensuring alignment with organizational objectives. This role required adept coordination to bridge technical and business perspectives, fostering the development of innovative solutions grounded in comprehensive business understanding.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Nov’21 – Apr&#x27;22</div>
+<div class="entry-card">
+<div class="entry-index">04</div>
+<h3>Senior Data Engineer</h3>
+<p class="entry-subtitle">KPMG Australia, Adelaide</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Spearheaded the development of a Proof of Concept (POC) in Tableau with a focus on forecasting metrics such as Revenue and Sales for a prominent convenience store flagship. The objective was to systematically identify suburbs with the highest retail growth potential, utilizing factors such as Population growth, Income growth, and Footfall. This data-driven approach aimed to provide actionable insights for strategic decision-making in expanding retail operations.
+                                                        </p>
+<p>• Utilized Terraform to orchestrate the deployment of Infrastructure on Azure, demonstrating adeptness in ensuring a robust and scalable foundation. Pioneered the development of Data Pipelines using Azure Data Factory to streamline the integration of data from diverse sources. Employing an efficient data wrangling process, the curated data was seamlessly transferred to Azure SQL Data Warehouse for further processing. The comprehensive workflow incorporated Continuous Integration/Continuous Deployment (CI/CD) practices with Git integration, showcasing a commitment to operational excellence in an internal Proof of Concept for a prominent logistics company.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Nov’20 - Nov’21</div>
+<div class="entry-card">
+<div class="entry-index">05</div>
+<h3>Data Engineer</h3>
+<p class="entry-subtitle">Enzen Australia, Adelaide</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Engineered comprehensive Data Pipelines to efficiently ingest, integrate, clean, and process data from multiple sources, managing the volume of gas faults in the expansive network of Australia's largest Gas Infrastructure Group (AGIG). Leveraging Dataproc and BigQuery on Google Cloud Platform, the implemented pipelines showcased a robust and scalable solution for managing complex datasets.
+                                                </p>
+<p>• Innovatively designed and implemented an advanced Forecasting model on Google Cloud Platform using the PyTorch-based NeuralProphet library within Jupyter Notebooks. This initiative resulted in a noteworthy 32% reduction in field resource allocation costs. Subsequently, enhanced the model's efficacy by integrating it with an Autoregressive Neural Network, achieving an additional 17% reduction in field resource allocation costs.
+                                                </p>
+<p>• Conducted thorough Data Analysis on gas faults data, integrating the outcomes of the aforementioned forecasting model into a comprehensive Google Data Studio report. This end-to-end Predictive Modelling solution provided stakeholders with actionable insights and a holistic view of the gas network's performance.
+                                                </p>
+<p>• Operationalized the developed model on Google Cloud Platform using Docker containers and Crontab, establishing a fully automated Forecasting process. This implementation not only ensured the sustainability of the Predictive Modelling solution but also streamlined and optimized the forecasting workflow for ongoing operational efficiency.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Jan’20 – Feb’20</div>
+<div class="entry-card">
+<div class="entry-index">06</div>
+<h3>Junior Data Scientist</h3>
+<p class="entry-subtitle">Deloitte Australia, Melbourne</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Spearheaded the development and optimization of sophisticated Deep Learning models on TensorFlow, specializing in Time-Series Forecasting, Image Classification, Object Detection, and Natural Language Processing. Leveraging Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Generative Adversarial Networks (GANs), these models were intricately crafted atop Apache Spark on Azure. The focus on diverse applications underscored a versatile skill set in harnessing cutting-edge technologies for varied data-driven tasks.
+                                        </p>
+<p>• Played an integral role within the Data Modernization team, contributing to the development of SSIS Data Pipelines, SSAS Cubes, and Power BI Reports within the Azure Data Factory framework. This collaborative effort aimed at enhancing data integration, analysis, and visualization capabilities, showcasing a commitment to modernizing data processes and facilitating informed decision-making within the organization.</p>
+</div>
+</details>
+</div>
+</article>
+<article class="timeline-entry reveal">
+<div class="timeline-date"><span class="timeline-node"></span>Jan’17 - Jul’18</div>
+<div class="entry-card">
+<div class="entry-index">07</div>
+<h3>Data Analyst</h3>
+<p class="entry-subtitle">KPMG India, Bengaluru</p>
+<details>
+<summary>Explore role <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>• Orchestrated end-to-end development solutions to establish a comprehensive Enterprise-wide Business Intelligence mechanism for Reporting. Utilized tools such as SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), and Power BI to seamlessly integrate and visualize data. This initiative aimed to empower the organization with robust reporting capabilities, fostering informed decision-making across various business units.
+                                    </p>
+<p>• Applied advanced Machine Learning Algorithms in R and Python to tackle intricate business challenges within the Predictive Analytics domain. The optimization of these algorithms demonstrated a commitment to leveraging data-driven insights for strategic decision-making, contributing to enhanced business outcomes.
+                                    </p>
+<p>• Innovatively designed and implemented a fully functional Business Process Mining Shiny application, serving as an in-house tool. This bespoke application showcased a nuanced understanding of business processes and data visualization, providing stakeholders with a powerful tool for process analysis and optimization.</p>
+</div>
+</details>
+</div>
+</article>
+</div>
+</section>
+<section id="projects" class="section projects" aria-labelledby="projects-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>04</span> / ENGINEERING IN PRACTICE</div>
+<h2 id="projects-title">Projects<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="project-toolbar">
+<div class="project-filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="ml" aria-pressed="false">Machine Learning</button><button type="button" data-filter="tseries" aria-pressed="false">Time-Series Forecasting</button><button type="button" data-filter="nlp" aria-pressed="false">Natural Language Processing</button><button type="button" data-filter="bd" aria-pressed="false">Big Data</button><button type="button" data-filter="da" aria-pressed="false">Data Analysis</button><button type="button" data-filter="cv" aria-pressed="false">Computer Vision</button>
+</div>
+<p class="project-count" role="status">11 projects</p>
+</div>
+<div class="project-grid">
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;tseries&quot;]'>
+<div class="project-image"><img src="assets/images/project-01.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/time-series-forecasting.jpeg" data-title="Forecating Flu Cases in Australia" aria-label="Enlarge image: Forecating Flu Cases in Australia">⤢</button><span class="project-number">01</span>
+</div>
+<div class="project-info">
+<p class="project-category">Time-Series Forecasting</p>
+<h3><a href="https://github.com/Shiivong27/Forecasting-Influenza-Flu-cases-in-Australia-with-XGBoost-and-SARIMAX-" target="_blank" rel="noopener noreferrer">Forecating Flu Cases in Australia<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;cv&quot;, &quot;ml&quot;]'>
+<div class="project-image"><img src="assets/images/project-02.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/cv.jpeg" data-title="Object Detection with YOLOv2" aria-label="Enlarge image: Object Detection with YOLOv2">⤢</button><span class="project-number">02</span>
+</div>
+<div class="project-info">
+<p class="project-category">Computer Vision / Machine Learning</p>
+<h3><a href="https://github.com/Shiivong27/Object-Detection-with-YOLOv2-in-TensorFlow" target="_blank" rel="noopener noreferrer">Object Detection with YOLOv2<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;da&quot;]'>
+<div class="project-image"><img src="assets/images/project-03.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/bp.jpeg" data-title="Business Process Mining" aria-label="Enlarge image: Business Process Mining">⤢</button><span class="project-number">03</span>
+</div>
+<div class="project-info">
+<p class="project-category">Data Analysis</p>
+<h3><a href="https://github.com/Shiivong27/Business_process_mining" target="_blank" rel="noopener noreferrer">Business Process Mining<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;tseries&quot;]'>
+<div class="project-image"><img src="assets/images/project-04.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/tseries1.jpeg" data-title="Forecasting Sun Spots Activity" aria-label="Enlarge image: Forecasting Sun Spots Activity">⤢</button><span class="project-number">04</span>
+</div>
+<div class="project-info">
+<p class="project-category">Time-Series Forecasting</p>
+<h3><a href="https://github.com/Shiivong27/Time-Series-Forecasting-with-CNNs-and-RNNs-on-Sunspots-Activity" target="_blank" rel="noopener noreferrer">Forecasting Sun Spots Activity<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;tseries&quot;]'>
+<div class="project-image"><img src="assets/images/project-05.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/tseries2.jpeg" data-title="Forecasting Climate Data with RNN&#x27;s" aria-label="Enlarge image: Forecasting Climate Data with RNN&#x27;s">⤢</button><span class="project-number">05</span>
+</div>
+<div class="project-info">
+<p class="project-category">Time-Series Forecasting</p>
+<h3><a href="https://github.com/Shiivong27/Time-Series-Forecasting-on-Climate-Data-with-RNN-" target="_blank" rel="noopener noreferrer">Forecasting Climate Data with RNN&#x27;s<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;da&quot;]'>
+<div class="project-image"><img src="assets/images/project-06.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/realestate.jpeg" data-title="Australian Real Estate Analysis" aria-label="Enlarge image: Australian Real Estate Analysis">⤢</button><span class="project-number">06</span>
+</div>
+<div class="project-info">
+<p class="project-category">Data Analysis</p>
+<h3><a href="https://github.com/Shiivong27/Australian_real_estate_analysis" target="_blank" rel="noopener noreferrer">Australian Real Estate Analysis<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;da&quot;, &quot;ml&quot;]'>
+<div class="project-image"><img src="assets/images/project-07.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/taxi.jpeg" data-title="Analysing and Predicting Uber Fare" aria-label="Enlarge image: Analysing and Predicting Uber Fare">⤢</button><span class="project-number">07</span>
+</div>
+<div class="project-info">
+<p class="project-category">Data Analysis / Machine Learning</p>
+<h3><a href="https://github.com/Shiivong27/Analysing_and_Predicting_Uber_Fare" target="_blank" rel="noopener noreferrer">Analysing and Predicting Uber Fare<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;bd&quot;]'>
+<div class="project-image"><img src="assets/images/project-08.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/data-privacy.jpg" data-title="Big Data Processing" aria-label="Enlarge image: Big Data Processing">⤢</button><span class="project-number">08</span>
+</div>
+<div class="project-info">
+<p class="project-category">Big Data</p>
+<h3><a href="https://github.com/Shiivong27/Big-Data-Processing" target="_blank" rel="noopener noreferrer">Big Data Processing<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;web&quot;, &quot;visual&quot;]'>
+<div class="project-image"><img src="assets/images/project-09.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/credit.jpeg" data-title="Credit Risk Modelling" aria-label="Enlarge image: Credit Risk Modelling">⤢</button><span class="project-number">09</span>
+</div>
+<div class="project-info">
+<p class="project-category">web / visual</p>
+<h3><a href="https://github.com/Shiivong27/Credit_risk_modelling" target="_blank" rel="noopener noreferrer">Credit Risk Modelling<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;ml&quot;, &quot;bd&quot;]'>
+<div class="project-image"><img src="assets/images/project-10.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/bd.jpeg" data-title="Machine Learning with Big Data" aria-label="Enlarge image: Machine Learning with Big Data">⤢</button><span class="project-number">10</span>
+</div>
+<div class="project-info">
+<p class="project-category">Machine Learning / Big Data</p>
+<h3><a href="https://github.com/Shiivong27/Machine-Learning-with-Big-Data" target="_blank" rel="noopener noreferrer">Machine Learning with Big Data<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+<article class="project-card reveal" data-groups='[&quot;all&quot;, &quot;nlp&quot;, &quot;ml&quot;]'>
+<div class="project-image"><img src="assets/images/project-11.jpg" alt="" width="640" height="400" loading="lazy" decoding="async"><button type="button" class="image-zoom" data-image="assets/images/nlp1.jpeg" data-title="NLP on Restaurant Reviews" aria-label="Enlarge image: NLP on Restaurant Reviews">⤢</button><span class="project-number">11</span>
+</div>
+<div class="project-info">
+<p class="project-category">Natural Language Processing / Machine Learning</p>
+<h3><a href="https://github.com/Shiivong27/Text_Classification_on_Restaurant_Reviews" target="_blank" rel="noopener noreferrer">NLP on Restaurant Reviews<span aria-hidden="true">↗</span></a>
+</h3>
+</div>
+</article>
+</div>
+</section>
+<section id="skills" class="section skills" aria-labelledby="skills-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>05</span> / A CONNECTED TOOLKIT</div>
+<h2 id="skills-title">Skills<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="skills-layout">
+<div class="skills-intro reveal"><span class="large-symbol" aria-hidden="true">⌘</span>
+<h3>Skills</h3>
+<p class="subtle">Cloud platforms. Programming.<br>Analytics and machine learning.</p>
+<p class="skill-note">Self-assessed proficiency</p>
+<div class="skill-tags"><span>Microsoft Fabric</span><span>Databricks</span><span>Microsoft Purview</span><span>Data Governance</span>
+</div>
+</div>
+<div class="skill-groups">
+<h3 class="more-skills-heading">More skills</h3>
+<div class="skill-group reveal">
+<h3>Cloud platforms</h3>
+<div class="skill" style="--level:90%">
+<div class="skill-label"><span>Microsoft Azure</span><span>90%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Microsoft Azure self-assessed proficiency" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:75%">
+<div class="skill-label"><span>Google Cloud Platform</span><span>75%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Google Cloud Platform self-assessed proficiency" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+</div>
+<div class="skill-group reveal">
+<h3>Programming</h3>
+<div class="skill" style="--level:90%">
+<div class="skill-label"><span>Python</span><span>90%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Python self-assessed proficiency" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:80%">
+<div class="skill-label"><span>SQL</span><span>80%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="SQL self-assessed proficiency" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:70%">
+<div class="skill-label"><span>R</span><span>70%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="R self-assessed proficiency" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:20%">
+<div class="skill-label"><span>Scala</span><span>20%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Scala self-assessed proficiency" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+</div>
+<div class="skill-group reveal">
+<h3>Analytics, tools & machine learning</h3>
+<div class="skill" style="--level:80%">
+<div class="skill-label"><span>Power BI</span><span>80%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Power BI self-assessed proficiency" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:85%">
+<div class="skill-label"><span>Git</span><span>85%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Git self-assessed proficiency" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:65%">
+<div class="skill-label"><span>Tableau</span><span>65%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Tableau self-assessed proficiency" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:20%">
+<div class="skill-label"><span>Computer Vision</span><span>20%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Computer Vision self-assessed proficiency" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:95%">
+<div class="skill-label"><span>Time-series Forecasting</span><span>95%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Time-series Forecasting self-assessed proficiency" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+<div class="skill" style="--level:70%">
+<div class="skill-label"><span>Natural Language Processing</span><span>70%</span>
+</div>
+<div class="skill-track" role="meter" aria-label="Natural Language Processing self-assessed proficiency" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
-<section id="projects" class="resume-section section" style="display: inline;">
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">Projects</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-inline" id="filter">
-                    <li><button type="button" class="active" data-group="all" aria-pressed="true">All</button></li>
-                    <li><button type="button" data-group="ml" aria-pressed="false">Machine Learning</button></li>
-                    <li><button type="button" data-group="tseries" aria-pressed="false">Time-Series Forecasting</button></li>
-                    <li><button type="button" data-group="nlp" aria-pressed="false">Natural Language Processing</button></li>
-                    <li><button type="button" data-group="bd" aria-pressed="false">Big Data</button></li>
-                    <li><button type="button" data-group="da" aria-pressed="false">Data Analysis</button></li>
-                    <li><button type="button" data-group="cv" aria-pressed="false">Computer Vision</button></li>
-                </ul> 
-                <div class="project">
-                    <div class="row">
-                        <div id="grid">
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "tseries"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/time-series-forecasting.jpeg"><i
-                                                                                                             class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/time-series-forecasting.jpeg" alt="" width="1400" height="787" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Forecasting-Influenza-Flu-cases-in-Australia-with-XGBoost-and-SARIMAX-">    
-                                            <div class="portfolio-info" >  
-                                                <h3>Forecating Flu Cases in Australia</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "cv", "ml"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/cv.jpeg"><i
-                                                                                                             class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/cv.jpeg" alt="" width="1600" height="900" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Object-Detection-with-YOLOv2-in-TensorFlow">    
-                                            <div class="portfolio-info" >  
-                                                <h3>Object Detection with YOLOv2</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "da"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/bp.jpeg"><i
-                                                                                                                    class="fa fa-search-plus"></i></a>
-
-                                        </div>
-                                        <img src="assets/images/bp.jpeg" alt="" width="1170" height="555" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Business_process_mining">
-                                            <div class="portfolio-info">
-                                                <h3>Business Process Mining</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "tseries"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/tseries1.jpeg"><i
-                                                                                                                    class="fa fa-search-plus"></i></a>
-
-                                        </div>
-                                        <img src="assets/images/tseries1.jpeg" alt="" width="1280" height="800" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Time-Series-Forecasting-with-CNNs-and-RNNs-on-Sunspots-Activity">
-                                            <div class="portfolio-info">
-                                                <h3>Forecasting Sun Spots Activity</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "tseries"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/tseries2.jpeg"><i
-                                                                                                            class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/tseries2.jpeg" alt="" width="1050" height="520" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Time-Series-Forecasting-on-Climate-Data-with-RNN-">
-                                            <div class="portfolio-info">
-                                                <h3>Forecasting Climate Data with RNN's</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "da"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/realestate.jpeg"><i class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/realestate.jpeg" alt="" width="4000" height="2250" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Australian_real_estate_analysis">
-                                            <div class="portfolio-info">
-                                                <h3>Australian Real Estate Analysis</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "da", "ml"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/taxi.jpeg"><i class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/taxi.jpeg" alt="" width="508" height="339" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Analysing_and_Predicting_Uber_Fare">
-                                            <div class="portfolio-info">
-                                                <h3>Analysing and Predicting Uber Fare</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>  
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "bd"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/data-privacy.jpg"><i
-                                                                                                           class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/data-privacy.jpg" alt="" width="2877" height="1918" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Big-Data-Processing">
-                                            <div class="portfolio-info">
-                                                <h3>Big Data Processing</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "visual"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/credit.jpeg"><i
-                                                                                                                class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/credit.jpeg" alt="" width="800" height="605" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Credit_risk_modelling">
-                                            <div class="portfolio-info">
-                                                <h3>Credit Risk Modelling</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "ml", "bd"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/bd.jpeg"><i class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/bd.jpeg" alt="" width="690" height="400" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Machine-Learning-with-Big-Data">
-                                            <div class="portfolio-info">
-                                                <h3>Machine Learning with Big Data</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "nlp", "ml"]'>
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links">
-                                            <a class="image-link" aria-label="Enlarge project image" href="assets/images/nlp1.jpeg"><i class="fa fa-search-plus"></i></a>
-                                        </div>
-                                        <img src="assets/images/nlp1.jpeg" alt="" width="600" height="400" loading="lazy" decoding="async">
-                                        <a style="display: block;" href = "https://github.com/Shiivong27/Text_Classification_on_Restaurant_Reviews">
-                                            <div class="portfolio-info">
-                                                <h3>NLP on Restaurant Reviews</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="skills-section section-padding">
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">Skills</h2>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>Microsoft Azure</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                             aria-valuemax="100"><span>90%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>Google Cloud Platform</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                             aria-valuemax="100"><span>75%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>Python</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                             aria-valuemax="100"><span>90%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-            </div><!-- /.col-md-6 -->
-
-            <div class="col-md-6">
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>SQL</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                             aria-valuemax="100"><span>80%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>R</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                             aria-valuemax="100"><span>70%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title">
-                        <h3>Scala</h3>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100"><span>20%</span></div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-            </div><!-- /.col-md-6 -->
-        </div><!-- /.row -->
-
-        <div class="skill-chart text-center">
-            <h3>More skills</h3>
-        </div>
-
-        <div class="row more-skill text-center">
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="80" data-color="e74c3c">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Power BI</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="85" data-color="2ecc71">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Git</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="65" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Tableau</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="20" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Computer Vision</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="95" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Time-series Forecasting</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="chart" data-percent="70" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>Natural Language Processing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div><!-- /.container -->
-</section><!-- End Skills Section -->
-
-<section id="recommendations" class="resume-section section-padding" style="background-color: #FAFAFA;">
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">Recommendations</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="resume">
-                    <ul class="timeline">
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Jul'26</span>
-                            </div>
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Adwait Dhole</h3>
-                                        <span>Principal Consultant, NTT Data Australia</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p><q>Shivong has strong data engineering and analytics capabilities, with the ability to design and deliver robust solutions for complex business challenges. What sets him apart, however, is that he doesn't just focus on the technology—he takes the time to understand the underlying business problem, works closely with clients to uncover their challenges, and draws on both his experience and research to develop practical, well-considered solutions.</q></p>
-                                        <p><q>He is also excellent at communicating complex concepts in a way that clients can understand, ensuring they are aligned with the proposed solution before implementation begins. This collaborative and thoughtful approach builds confidence and leads to better outcomes.</q></p>
-                                        <p><q>Beyond his technical and consulting skills, Shivong brings a consistently positive attitude to every engagement. He is dependable, calm under pressure, and someone you can trust as a safe pair of hands when delivering complex projects. I have thoroughly enjoyed working with Shivong and would be happy to work with him again on future projects.</q></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Dec'21</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Alex Osti</h3>
-                                        <span>Technical Director, Mott MacDonald Australia</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                         <q>Shiivong was a delight to manage. Always positive, hungry to learn and improve, his attitude was as good as one could hope for in a team member. 
+<section id="recommendations" class="section recommendations" aria-labelledby="recommendations-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>06</span> / THE PEOPLE ALONG THE WAY</div>
+<h2 id="recommendations-title">Recommendations<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="recommendation-grid">
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Jul&#x27;26</span>
+</div>
+<div class="recommendation-text">
+<p><q>Shiivong has strong data engineering and analytics capabilities, with the ability to design and deliver robust solutions for complex business challenges. What sets him apart, however, is that he doesn't just focus on the technology—he takes the time to understand the underlying business problem, works closely with clients to uncover their challenges, and draws on both his experience and research to develop practical, well-considered solutions.</q>
+</p>
+<p><q>He is also excellent at communicating complex concepts in a way that clients can understand, ensuring they are aligned with the proposed solution before implementation begins. This collaborative and thoughtful approach builds confidence and leads to better outcomes.</q>
+</p>
+<p><q>Beyond his technical and consulting skills, Shiivong brings a consistently positive attitude to every engagement. He is dependable, calm under pressure, and someone you can trust as a safe pair of hands when delivering complex projects. I have thoroughly enjoyed working with Shiivong and would be happy to work with him again on future projects.</q>
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">AD</span>
+<div>
+<h3>Adwait Dhole</h3>
+<p>Principal Consultant, NTT Data Australia</p>
+</div>
+</div>
+</article>
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Dec&#x27;21</span>
+</div>
+<div class="recommendation-text">
+<p>
+                                         <q>Shiivong was a delight to manage. Always positive, hungry to learn and improve, his attitude was as good as one could hope for in a team member.
                                         </q>
                                             <br><br>
                                         <q>During his time with Mott MacDonald, Shiivong made great strides in transitioning the application of his fundamental technical knowledge from single use cases to scalable production-ready code that underpinned cloud deployments and unlocked high value outcomes for our infrastructure sector clients.</q>
-                                        <br><br> 
+                                        <br><br>
                                         <q>He made a significant and positive impact during his time at Mott MacDonald and will be missed.</q>
                                             <br>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Feb'20</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Beena Rao</h3>
-                                        <span>Senior Specialist Lead, Deloitte Australia</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                            <q>Shiivong is an extremely proactive Data analyst with a good mix of technology and functional understanding. 
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">AO</span>
+<div>
+<h3>Alex Osti</h3>
+<p>Technical Director, Mott MacDonald Australia</p>
+</div>
+</div>
+</article>
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Feb&#x27;20</span>
+</div>
+<div class="recommendation-text">
+<p>
+                                            <q>Shiivong is an extremely proactive Data analyst with a good mix of technology and functional understanding.
                                             I was extremely impressed by his effort and productivity within the team while working with him.
                                             I wish Shiivong the best of luck with his future projects.</q>
                                             <br>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Nov'18</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Rakesh Paul</h3>
-                                        <span>Manager, KPMG India</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                         <q>I rarely come across real talents who stand like Shiivong. 
-                                            I had the pleasure of working with Shivong for product development, collaborating on several aspects of different tools. 
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">BR</span>
+<div>
+<h3>Beena Rao</h3>
+<p>Senior Specialist Lead, Deloitte Australia</p>
+</div>
+</div>
+</article>
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Nov&#x27;18</span>
+</div>
+<div class="recommendation-text">
+<p>
+                                         <q>I rarely come across real talents who stand like Shiivong.
+                                            I had the pleasure of working with Shivong for product development, collaborating on several aspects of different tools.
                                             His perseverance to handle such heavy lifting in earlier phases of his career made a huge impact on the faster solution development.</q>
                                             <br><br>
-                                         <q>Process Mining being a niche skill set, he was able to grasp the subject and played a pivotal role in bringing the tool at a significant mature stage. 
+                                         <q>Process Mining being a niche skill set, he was able to grasp the subject and played a pivotal role in bringing the tool at a significant mature stage.
                                             As a team member, Shiivong earns my highest recommendation, a stellar performer indeed.</q>
                                             <br>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Aug'18</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Nikita Purnaye</h3>
-                                        <span>Data & Analytics Manager, Unilever</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">RP</span>
+<div>
+<h3>Rakesh Paul</h3>
+<p>Manager, KPMG India</p>
+</div>
+</div>
+</article>
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Aug&#x27;18</span>
+</div>
+<div class="recommendation-text">
+<p>
                                             <q>Top notch attitude, great problem solving skills, ability to grasp things at drop of a hat and a fun person to work with, Shiivong brings a lot of dynamism, creativity and dedication to the table.</q>
                                             <br><br>
                                             <q>I worked with Shiivong for almost a year in very critical project of Healthcare services client for BI implementation. He learned SSIS, SSAS and Power BI in no time and started handling a critical module in project independently. He owned the module end- to- end, right from requirement gathering, logic/ source system understanding, implementing and designing dashboards. Shiivong received appreciation from all client senior/executive management for his amazing work for the executive dashboard.</q>
                                             <br><br>
-                                            <q>Shiivong went out of his way and leveraged his R and Shiny skills to help a new solution development in KPMG analytics practice while handling the strict deadlines at client project deliverable. His contribution during nascent stages of the solution, helped team a lot to develop it further. 
+                                            <q>Shiivong went out of his way and leveraged his R and Shiny skills to help a new solution development in KPMG analytics practice while handling the strict deadlines at client project deliverable. His contribution during nascent stages of the solution, helped team a lot to develop it further.
                                                 I wish Shiivong a very bright career and best wishes for his future endeavors.</q>
                                             <br>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">Jul'18</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Megha Chandni</h3>
-                                        <span>Azure Data Engineer, Nokia</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                         <q>Shiivong is a hardworking and professional person. He is a quick learner and has a right attitude towards learning. 
-                                            He joined as an intern in KPMG and continued as analyst. 
-                                            He independently completed 4 modules of a project with minimal issues. 
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">NP</span>
+<div>
+<h3>Nikita Purnaye</h3>
+<p>Data &amp; Analytics Manager, Unilever</p>
+</div>
+</div>
+</article>
+<article class="recommendation-card reveal">
+<div class="recommendation-top"><span class="quote-mark" aria-hidden="true">“</span><span class="eyebrow">Jul&#x27;18</span>
+</div>
+<div class="recommendation-text">
+<p>
+                                         <q>Shiivong is a hardworking and professional person. He is a quick learner and has a right attitude towards learning.
+                                            He joined as an intern in KPMG and continued as analyst.
+                                            He independently completed 4 modules of a project with minimal issues.
                                             He picked up MSBI skill in very short time and has good knowledge in SQL as well.</q>
                                         <br><br>
-                                         <q>As a senior, I have reviewed his work and it was good to see that his work is praiseworthy. 
+                                         <q>As a senior, I have reviewed his work and it was good to see that his work is praiseworthy.
                                             Besides MSBI, he worked on R analytics side by side for process mining. Overall he is a good person.</q>
                                             <br>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> 
+</p>
+</div>
+<div class="recommender"><span class="initials" aria-hidden="true">MC</span>
+<div>
+<h3>Megha Chandni</h3>
+<p>Azure Data Engineer, Nokia</p>
+</div>
+</div>
+</article>
+</div>
 </section>
-
-<section id="pubAndCert" class="resume-section section-padding" style="background-color: #FAFAFA;">
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">Publications and Certifications</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="resume">
-                    <ul class="timeline">
-                        
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2026</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Fabric Data Engineer Associate</h3>
-                                        <span><strong>DP-700</strong></span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+<section id="pubAndCert" class="section credentials" aria-labelledby="pubAndCert-title">
+<div class="section-heading reveal">
+<div class="eyebrow"><span>07</span> / CONTINUOUS EXPLORATION</div>
+<h2 id="pubAndCert-title">Publications and Certifications<span class="heading-dot">.</span>
+</h2>
+</div>
+<div class="credential-grid">
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2026</span>
+</div>
+<h3>Fabric Data Engineer Associate</h3>
+<p class="credential-code"><strong>DP-700</strong>
+</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                             • Implement and manage an analytics solution.<br><br>
                                             • Ingest and transform data.<br><br>
                                             • Monitor and optimize an analytics solution.<br><br>
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://learn.microsoft.com/en-us/users/birlashiivong-1879/credentials/cf263297536cc0a6?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify certification</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2026</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Fabric Analytics Engineer Associate</h3>
-                                        <span>DP-600</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/users/birlashiivong-1879/credentials/cf263297536cc0a6?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify certification</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2026</span>
+</div>
+<h3>Fabric Analytics Engineer Associate</h3>
+<p class="credential-code">DP-600</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                             • Subject matter expertise in designing, creating, and managing analytical assets, such as semantic models, warehouses, or lakehouses.<br><br>
                                             • Secure and maintain analytics assets.<br><br>
                                             • Implement and manage semantic models.<br><br>
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://learn.microsoft.com/en-us/users/shiivongkapilbirla-2778/credentials/d8506482da70c76e?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify via Credly</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2023</span>
-                            </div><!-- /posted-date -->
 
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Azure Enterprise Data Analyst Associate</h3>
-                                        <span>DP-500</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/users/shiivongkapilbirla-2778/credentials/d8506482da70c76e?ref=https%3A%2F%2Fwww.linkedin.com%2F">Verify via Credly</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2023</span>
+</div>
+<h3>Azure Enterprise Data Analyst Associate</h3>
+<p class="credential-code">DP-500</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                             • Help collect enterprise-level requirements for data analytics solutions that include Azure and Power BI.<br><br>
                                             • Advise on data governance and configuration settings for Power BI administration.<br><br>
                                             • Monitor data usage.<br><br>
                                             • Optimize performance of the data analytics solutions.
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://www.credly.com/badges/9cfea382-ed2f-4936-a03d-cd4c74d73957">Verify via Credly</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2022</span>
-                            </div><!-- /posted-date -->
 
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Lakehouse Fundamentals</h3>
-                                        <span>Databricks</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.credly.com/badges/9cfea382-ed2f-4936-a03d-cd4c74d73957">Verify via Credly</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2022</span>
+</div>
+<h3>Lakehouse Fundamentals</h3>
+<p class="credential-code">Databricks</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                           • The Databricks Accredited Lakehouse Platform Fundamentals accreditation exam will test your knowledge about fundamental concepts related to the Databricks Lakehouse Platform. Questions will assess how well you know about the platform in general, how familiar you are with the individual components of the platform, and your ability to describe how the platform helps organizations accomplish their data engineering, data science/machine learning, and business/SQL analytics use cases. Please note that this assessment will not test your ability to perform tasks using Databricks functionality. Instead, it will test how well you can explain components of the platform and how they fit together.
                                             <br><br>
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://credentials.databricks.com/ab135037-4dd8-43c2-a293-4cf5a669276b">See certification</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2022</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Microsoft Azure Data Engineer Associate</h3>
-                                        <span>DP-203</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                          • Azure Data Engineer Associate certification validates the skills and expertise in integrating, 
-                                            transforming, and consolidating data from various structured and unstructured data systems into 
-                                            structures that are suitable for building analytics solutions. Candidates have a solid knowledge of data processing 
-                                            languages, such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture 
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://credentials.databricks.com/ab135037-4dd8-43c2-a293-4cf5a669276b">See certification</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2022</span>
+</div>
+<h3>Microsoft Azure Data Engineer Associate</h3>
+<p class="credential-code">DP-203</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
+                                          • Azure Data Engineer Associate certification validates the skills and expertise in integrating,
+                                            transforming, and consolidating data from various structured and unstructured data systems into
+                                            structures that are suitable for building analytics solutions. Candidates have a solid knowledge of data processing
+                                            languages, such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture
                                             patterns.
                                             <br><br>
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://www.credly.com/badges/36b40d69-c08d-4611-addf-c145dc38faab">Verify via Credly</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2020</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Natural Language Processing Specialization</h3>
-                                        <span>DeepLearning.AI</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.credly.com/badges/36b40d69-c08d-4611-addf-c145dc38faab">Verify via Credly</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2020</span>
+</div>
+<h3>Natural Language Processing Specialization</h3>
+<p class="credential-code">DeepLearning.AI</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                             • Use logistic regression, naïve Bayes, and word vectors to implement sentiment analysis, complete analogies, translate words, and use locality-sensitive hashing to approximate nearest neighbors.<br><br>
                                             • Use dense and recurrent neural networks, LSTMs, GRUs, and Siamese networks in TensorFlow and Trax to perform advanced sentiment analysis, text generation, named entity recognition, and to identify duplicate questions.<br><br>
                                             • Use dynamic programming, hidden Markov models, and word embeddings to autocorrect misspelled words, autocomplete partial sentences, and identify part-of-speech tags for words.<br><br>
                                             • Use encoder-decoder, causal, and self-attention to perform advanced machine translation of complete sentences, text summarization, question-answering, and build chatbots. Models covered include T5, BERT, transformer, reformer, and more!
                                             <br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://www.coursera.org/account/accomplishments/specialization/certificate/HMBSBJQG89GQ">See certification</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2020</span>
-                            </div><!-- /posted-date -->
 
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>TensorFlow Developer</h3>
-                                        <span>DeepLearning.AI</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/account/accomplishments/specialization/certificate/HMBSBJQG89GQ">See certification</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">◇</span><span class="eyebrow">2020</span>
+</div>
+<h3>TensorFlow Developer</h3>
+<p class="credential-code">DeepLearning.AI</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                             • Best practices for TensorFlow, a popular open-source machine learning framework to train a neural network for a computer vision applications.<br><br>
                                             • Build natural language processing systems using TensorFlow.<br><br>
                                             • Handle real-world image data and explore strategies to prevent overfitting, including augmentation and dropout.<br><br>
-                                            • Apply RNNs, GRUs, and LSTMs as you train them using text repositories.    
+                                            • Apply RNNs, GRUs, and LSTMs as you train them using text repositories.
                                             <br><br>
-                                            <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://www.coursera.org/account/accomplishments/specialization/certificate/LNBBQH4R5W5W">See certification</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2016</span>
-                            </div><!-- /posted-date -->
-
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Machine Learning on Imabalanced Data in Credit Risk</h3>
-                                        <span>IEEE Xplore</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
+                                            <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/account/accomplishments/specialization/certificate/LNBBQH4R5W5W">See certification</a>
+</p>
+</div>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">↗</span><span class="eyebrow">2016</span>
+</div>
+<h3>Machine Learning on Imabalanced Data in Credit Risk</h3>
+<p class="credential-code">IEEE Xplore</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
                                           • Co-authored a paper on Machine Learning on Imbalanced Data in Credit Risk, published in
                                             an IEEE paper publication to address the problem of privacy in Data Mining and to suggest a
                                             simple yet effective way to preserve the privacy by hiding the sensitive data before using Data
                                             Mining algorithms.<br><br>
-                                            <!-- To read the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="">Click Here</a>.<br> -->
-                                            To access the paper, <a class="link" target="_blank" rel="noopener noreferrer"
-                                                                              href="https://ieeexplore.ieee.org/document/7746326">See publication</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div><!-- /timeline-panel -->
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month" style="background-color: #FAFAFA;">2015</span>
-                            </div><!-- /posted-date -->
 
-                            <div class="timeline-panel wow fadeInUp">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Data Mining on Student Database to Improve Future Performance</h3>
-                                        <span>International Journal of Computer Applications</span>
-                                    </div><!-- /timeline-heading -->
-
-                                    <div class="timeline-body">
-                                        <p>
-                                        • Co-authored a paper on Data Mining on factors that affect a students' performance at school.                                            
-                                            <br><br>
-                                          To access the paper, <a class="link" target="_blank" rel="noopener noreferrer"
-                                               href="https://www.ijcaonline.org/archives/volume146/number15/kohli-2016-ijca-910717.pdf">See publication</a>
-                                        </p>
-                                    </div><!-- /timeline-body -->
-                                </div> <!-- /timeline-content -->
-                            </div> <!-- /timeline-panel -->
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div><!-- /row -->
-    </div>
-</section>
-
-<!-- Hire Section -->
-<section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-    <div class="hire-section-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.hire-section-bg -->
-</section><!-- End Hire Section -->
-
-
-
-<!-- Contact Section -->
-<section id="contact" class="contact-section section-padding">
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">Get in touch</h2><br><br>
-        <div class="col-md-12">
-            <div class="row center-xs">
-                <div class="col-sm-4">
-                    <i class="fa fa-map-marker"></i>
-                    <address>
-                        <strong>Location</strong>
-                        Melbourne, Victoria, Australia 3000
-                    </address>
-                </div>
-
-                <div class="col-sm-4">
-                    <i class="fa fa-envelope"></i>
-                    <div class="contact-number">
-                        <strong>E-mail</strong>
-                        <a href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-            </div>
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section><!-- End Contact Section -->
-
-
-</main>
-<!-- Footer Section -->
-<footer class="footer-wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright text-center">
-                    <p>&copy; Shiivong Birla<br>All information provided is factual.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer><!-- End Footer Section -->
-
-
-<!-- Scroll-up -->
-<div class="scroll-up">
-    <a href="#home" aria-label="Back to top"><i class="fa fa-angle-up"></i></a>
+                                            To access the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/7746326">See publication</a>
+</p>
 </div>
-
-<!-- Javascript files -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.stellar.min.js"></script>
-<script src="assets/js/jquery.sticky.js"></script>
-
-
-<script src="assets/js/jquery.countTo.js"></script>
-<script src="assets/js/jquery.inview.min.js"></script>
-<script src="assets/js/jquery.easypiechart.js"></script>
-<script src="assets/js/jquery.shuffle.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/jquery.fitvids.js"></script>
-<script src="assets/js/scripts.js"></script>
-<script>if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    var headlineScript = document.createElement("script");
-    headlineScript.src = "assets/js/animated-headline.js";
-    document.body.appendChild(headlineScript);
-}</script>
+</details>
+</article>
+<article class="credential-card reveal">
+<div class="credential-top"><span class="credential-symbol" aria-hidden="true">↗</span><span class="eyebrow">2015</span>
+</div>
+<h3>Data Mining on Student Database to Improve Future Performance</h3>
+<p class="credential-code">International Journal of Computer Applications</p>
+<details>
+<summary>View details <span aria-hidden="true">+</span>
+</summary>
+<div class="entry-body">
+<p>
+                                        • Co-authored a paper on Data Mining on factors that affect a students' performance at school.
+                                            <br><br>
+                                          To access the paper, <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.ijcaonline.org/archives/volume146/number15/kohli-2016-ijca-910717.pdf">See publication</a>
+</p>
+</div>
+</details>
+</article>
+</div>
+</section>
+<section id="contact" class="section contact" aria-labelledby="contact-title">
+<div class="contact-network" aria-hidden="true"><span></span><span></span><span></span>
+</div>
+<div class="eyebrow reveal"><span>08</span> / THE NEXT CONNECTION</div>
+<h2 id="contact-title" class="reveal">Get in<br><span>touch</span><i>.</i>
+</h2>
+<a class="contact-email" href="mailto:shiivongbirla27@gmail.com">shiivongbirla27@gmail.com <span aria-hidden="true">↗</span></a>
+<div class="contact-bottom">
+<div><span class="eyebrow">LOCATION</span>
+<p>Melbourne, Victoria, Australia 3000</p>
+</div>
+<div class="social-links"><a href="https://www.linkedin.com/in/shiivong-birla/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/Shiivong27" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer"><a class="brand" href="#home" aria-label="Back to top">s<span>b</span><i>.</i></a>
+<div>
+<p>&copy; Shiivong Birla<br>All information provided is factual.</p>
+</div><a href="#home">BACK TO TOP ↑</a>
+</footer>
+<dialog class="lightbox" aria-labelledby="lightbox-title">
+<div class="lightbox-header">
+<h2 id="lightbox-title">
+</h2>
+<button type="button" class="lightbox-close" aria-label="Close image">Close ×</button>
+</div>
+<img alt="">
+</dialog>
 </body>
-
 </html>
